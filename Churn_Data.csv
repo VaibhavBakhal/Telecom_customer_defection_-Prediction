@@ -1,0 +1,501 @@
+Gender,Age,Married,Number of dependents,Number of referrals,Tenure in months,Offer,Phone service,Avg monthly long distance charges,Multiple lines,Internet service,Internet type,Avg monthly gb download,Online security,Online backup,Device protection plan,Premium tech support,Streaming tv,Streaming movies,Streaming music,Unlimited data,Contract,Paperless billing,Payment method,Monthly charge,Total charges,Total extra data charges,Total long distance charges,Total revenue,Customer status,GBT_prediction,Random_Forest_prediction,NB_prediction,Logistic_prediction,Decision_Tree_prediction
+Male,78,Yes,0,7,33,None,Yes,25.15,Yes,Yes,Fiber Optic,20,Yes,No,Yes,Yes,Yes,Yes,No,Yes,One Year,Yes,Bank Withdrawal,109.9,3694.7,0,829.95,4524.65,Stayed,1,1,1,1,1
+Female,60,No,0,0,3,None,Yes,2.69,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Month-to-Month,No,Credit Card,19.95,58,0,8.07,66.07,Stayed,0,0,1,0,0
+Male,54,Yes,1,7,47,None,Yes,1.09,Yes,Yes,Fiber Optic,13,No,Yes,No,No,Yes,No,No,Yes,Month-to-Month,No,Bank Withdrawal,87.2,4017.45,0,51.23,4068.68,Stayed,1,1,1,1,1
+Male,42,Yes,3,2,62,None,Yes,1.76,No,Yes,Fiber Optic,20,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Credit Card,108.15,6825.65,0,109.12,6934.77,Stayed,1,1,1,1,1
+Male,22,No,0,0,71,None,Yes,2.88,Yes,Yes,Fiber Optic,48,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,116.3,8309.55,0,204.48,8514.03,Stayed,1,1,1,1,1
+Male,71,Yes,0,8,7,None,Yes,41.97,No,Yes,Fiber Optic,11,No,No,No,No,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,89,605.45,0,293.79,899.24,Stayed,1,1,1,1,1
+Female,56,Yes,2,6,27,Offer C,Yes,46.66,No,Yes,Fiber Optic,28,Yes,No,No,No,No,No,No,Yes,Month-to-Month,No,Credit Card,74.4,1972.35,0,1259.82,3232.17,Stayed,1,1,1,1,1
+Male,33,No,0,0,2,None,Yes,1.81,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Month-to-Month,No,Credit Card,20.05,33.7,0,3.62,37.32,Stayed,0,0,1,1,0
+Female,32,No,3,0,25,Offer C,No,0,no phone service,Yes,Cable,75,Yes,No,No,Yes,No,No,No,Yes,Two Year,No,Bank Withdrawal,35.05,844.45,0,0,844.45,Stayed,1,1,1,1,1
+Male,80,No,0,0,30,None,Yes,38.61,No,Yes,DSL,5,Yes,Yes,No,No,Yes,Yes,No,Yes,One Year,Yes,Bank Withdrawal,74.75,2111.3,0,1158.3,3269.6,Stayed,1,1,1,1,1
+Female,73,Yes,0,1,58,None,Yes,16.94,No,Yes,Fiber Optic,19,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,One Year,Yes,Credit Card,105.5,6205.5,0,982.52,7188.02,Churned,0,1,1,1,1
+Male,26,Yes,0,1,10,Offer D,Yes,2.02,Yes,Yes,Fiber Optic,82,No,No,No,No,No,Yes,Yes,No,Month-to-Month,Yes,Bank Withdrawal,85.25,855.3,100,20.2,975.5,Churned,0,0,0,0,1
+Female,59,No,0,0,9,None,Yes,9.27,Yes,Yes,Fiber Optic,28,No,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Credit Card,75.2,633.85,0,83.43,717.28,Stayed,0,0,0,0,1
+Female,78,Yes,0,1,6,None,Yes,28.71,Yes,Yes,Fiber Optic,17,No,No,No,No,No,Yes,No,Yes,Month-to-Month,Yes,Bank Withdrawal,84.35,474.9,0,172.26,647.16,Churned,0,0,0,0,0
+Female,47,Yes,1,7,69,None,Yes,38.92,Yes,Yes,Fiber Optic,16,Yes,No,Yes,No,No,No,No,No,One Year,No,Bank Withdrawal,84.45,5848.6,40,2685.48,8574.08,Stayed,1,1,1,1,1
+Female,68,No,0,0,66,None,Yes,10.45,Yes,Yes,Fiber Optic,20,Yes,No,No,No,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,102.4,6471.85,0,689.7,7161.55,Stayed,1,1,1,1,1
+Female,30,No,0,0,70,Offer A,Yes,10.21,Yes,Yes,Fiber Optic,52,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,One Year,No,Credit Card,115.55,8127.6,0,714.7,8842.3,Churned,1,1,1,1,1
+Male,62,No,0,0,25,Offer C,Yes,5.57,Yes,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,One Year,No,Bank Withdrawal,25.3,676.35,0,139.25,815.6,Churned,1,1,1,1,1
+Female,52,Yes,2,1,46,Offer B,Yes,24.33,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,Yes,Credit Card,19.25,864.2,0,1119.18,1983.38,Stayed,1,1,1,1,1
+Female,63,Yes,0,7,54,Offer B,Yes,11.4,Yes,Yes,Fiber Optic,26,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,One Year,Yes,Credit Card,114.65,6049.5,0,615.6,6665.1,Stayed,1,1,1,1,1
+Female,54,No,0,0,15,None,Yes,22.39,No,Yes,Fiber Optic,7,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-Month,No,Bank Withdrawal,105.1,1582.75,0,335.85,1918.6,Churned,0,1,0,1,1
+Female,48,Yes,1,0,12,Offer D,Yes,8.25,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Month-to-Month,No,Bank Withdrawal,19.4,198.1,0,99,297.1,Stayed,1,1,1,1,1
+Female,51,No,0,0,22,None,No,0,no phone service,Yes,Cable,22,No,Yes,No,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,50.35,1098.85,0,0,1098.85,Stayed,1,1,0,0,1
+Female,22,Yes,0,9,70,None,No,0,no phone service,Yes,Cable,85,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Bank Withdrawal,57.8,4039.3,0,0,4038.29,Stayed,1,1,1,1,1
+Male,52,No,0,0,30,Offer C,Yes,24.73,No,Yes,Fiber Optic,20,Yes,Yes,Yes,No,No,No,No,No,Month-to-Month,Yes,Credit Card,84.3,2438.6,130,741.9,3310.5,Stayed,1,1,1,1,1
+Male,22,Yes,1,1,71,Offer A,Yes,28.34,Yes,Yes,Fiber Optic,59,No,Yes,No,No,Yes,Yes,Yes,Yes,One Year,No,Bank Withdrawal,100.55,7113.75,0,2012.14,9108.9,Stayed,1,1,1,1,1
+Male,33,Yes,0,2,30,None,Yes,9.81,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,One Year,No,Credit Card,19.8,576.65,0,294.3,870.95,Stayed,1,1,1,1,1
+Male,26,Yes,0,5,4,Offer E,Yes,28.77,Yes,Yes,Fiber Optic,19,No,Yes,Yes,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,84.8,371.9,0,115.08,486.98,Churned,0,0,1,1,1
+Male,58,No,0,0,2,Offer E,Yes,14.14,No,Yes,Fiber Optic,28,No,No,Yes,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,85.85,167.3,0,28.28,195.58,Churned,0,0,0,0,0
+Male,22,No,1,0,10,None,Yes,7.86,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,One Year,Yes,Bank Withdrawal,19.95,219.5,0,78.6,298.1,Stayed,1,1,1,1,1
+Male,66,No,0,0,4,Offer E,Yes,36.4,No,Yes,Fiber Optic,29,Yes,No,No,No,No,No,No,Yes,One Year,No,Bank Withdrawal,75.35,273.4,0,145.6,419,Stayed,1,1,0,1,1
+Male,69,No,0,0,52,Offer B,No,0,no phone service,Yes,DSL,19,Yes,No,No,No,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,48.8,2555.05,0,0,2555.05,Stayed,1,1,0,1,1
+Male,25,No,0,0,5,None,Yes,22.01,Yes,Yes,Cable,85,No,No,No,No,No,No,Yes,Yes,Month-to-Month,No,Bank Withdrawal,47.15,223.15,0,110.05,333.2,Churned,0,1,0,0,1
+Male,30,Yes,3,1,8,Offer E,Yes,2.87,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,No,Credit Card,20.15,165.5,0,22.96,188.46,Stayed,1,1,1,1,1
+Female,73,No,0,0,2,Offer E,Yes,23.91,No,Yes,Cable,22,No,No,No,No,No,No,No,Yes,One Year,Yes,Bank Withdrawal,44.3,89.3,0,47.82,137.12,Stayed,1,0,0,0,0
+Male,46,No,0,0,3,Offer E,Yes,13.72,No,Yes,Fiber Optic,26,No,Yes,No,No,No,Yes,Yes,Yes,Month-to-Month,No,Bank Withdrawal,84.3,235.05,0,41.16,276.21,Stayed,0,0,0,0,0
+Male,40,No,0,0,19,Offer D,Yes,11.85,Yes,Yes,DSL,18,No,No,Yes,Yes,No,No,No,Yes,Month-to-Month,No,Bank Withdrawal,59.55,1144.6,0,225.15,1369.75,Stayed,1,1,0,1,1
+Male,53,No,0,0,72,Offer A,Yes,3.66,Yes,Yes,DSL,13,Yes,Yes,Yes,Yes,No,No,No,Yes,Two Year,No,Bank Withdrawal,69.65,4908.25,0,263.52,5171.77,Stayed,1,1,1,1,1
+Male,76,Yes,0,2,63,Offer B,No,0,no phone service,Yes,DSL,7,Yes,No,No,Yes,No,No,No,Yes,One Year,No,Bank Withdrawal,36.1,2298.9,0,0,2298.9,Stayed,1,1,1,1,1
+Male,38,Yes,0,1,66,None,No,0,no phone service,Yes,DSL,29,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Two Year,Yes,Bank Withdrawal,56.6,3789.2,0,0,3789.2,Stayed,1,1,1,1,1
+Male,23,No,0,0,1,None,Yes,44.56,No,Yes,Fiber Optic,27,No,No,No,Yes,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,75.9,75.9,0,44.56,120.46,Churned,0,0,0,0,0
+Female,24,No,0,0,60,None,Yes,15.29,Yes,Yes,Fiber Optic,48,No,No,Yes,No,No,No,No,Yes,One Year,Yes,Bank Withdrawal,79.2,4765,0,917.4,5682.4,Stayed,1,1,1,1,1
+Female,43,Yes,3,3,48,None,No,0,no phone service,Yes,DSL,22,Yes,No,Yes,No,No,Yes,Yes,Yes,One Year,No,Credit Card,45,2196.3,0,0,2196.3,Stayed,1,1,1,1,1
+Female,45,No,0,0,1,Offer E,Yes,33.34,No,Yes,Fiber Optic,4,No,No,Yes,No,Yes,No,No,Yes,Month-to-Month,Yes,Credit Card,85.55,85.55,0,33.34,118.89,Churned,0,0,0,0,0
+Male,49,No,0,0,15,None,Yes,48.93,Yes,Yes,Fiber Optic,15,No,No,No,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,93.35,1444.65,0,733.95,2178.6,Churned,0,1,0,0,1
+Female,62,Yes,0,4,50,Offer B,Yes,34.57,Yes,Yes,Fiber Optic,13,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,109.65,5405.8,0,1728.5,7134.3,Stayed,1,1,1,1,1
+Male,25,Yes,1,10,72,Offer A,Yes,33.75,Yes,Yes,Cable,30,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Credit Card,89.7,6339.3,0,2430,8769.3,Stayed,1,1,1,1,1
+Female,37,No,0,0,46,None,Yes,43.27,Yes,Yes,Fiber Optic,21,Yes,Yes,No,No,No,No,No,No,Month-to-Month,No,Credit Card,84.25,3847.6,100,1990.42,5938.02,Stayed,1,1,1,1,1
+Female,35,Yes,1,4,72,None,Yes,30,Yes,Yes,DSL,19,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Bank Withdrawal,92.65,6733,0,2160,8893,Stayed,1,1,1,1,1
+Male,37,Yes,3,2,1,None,Yes,34.28,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Month-to-Month,No,Credit Card,19.7,19.7,0,34.28,53.98,Stayed,0,0,1,1,0
+Female,19,No,0,0,1,None,Yes,29.13,Yes,Yes,Cable,51,No,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,50.1,50.1,0,29.13,79.23,Stayed,0,0,0,0,0
+Female,69,No,0,0,67,Offer A,Yes,2.57,No,Yes,Fiber Optic,21,Yes,Yes,No,Yes,Yes,No,No,Yes,Two Year,Yes,Bank Withdrawal,92.45,6140.85,0,172.19,6313.04,Stayed,1,1,1,1,1
+Female,44,Yes,1,5,48,None,Yes,8.94,Yes,Yes,DSL,27,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Two Year,No,Bank Withdrawal,79.65,3870.3,0,429.12,4299.42,Stayed,1,1,1,1,1
+Female,19,No,0,0,72,None,Yes,41.91,No,Yes,Fiber Optic,73,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,109.9,7624.2,0,3017.52,10641.72,Stayed,1,1,1,1,1
+Male,64,Yes,0,6,52,Offer B,Yes,41.34,Yes,Yes,Cable,24,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,One Year,Yes,Credit Card,81.4,4354.45,0,2149.68,6504.13,Stayed,1,1,1,1,1
+Female,44,Yes,3,1,67,Offer A,Yes,46.9,No,Yes,Cable,28,No,Yes,No,No,No,No,No,Yes,One Year,No,Credit Card,50.55,3431.75,0,3142.3,6574.05,Stayed,1,1,1,1,1
+Female,58,Yes,0,1,28,Offer C,Yes,16.85,No,Yes,Fiber Optic,13,No,No,No,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,81.05,2227.1,0,471.8,2698.9,Churned,0,1,0,0,1
+Female,29,Yes,1,9,32,Offer C,Yes,33.28,Yes,Yes,DSL,51,No,Yes,Yes,No,No,No,Yes,Yes,Month-to-Month,No,Bank Withdrawal,62.45,2045.55,0,1064.96,3110.51,Stayed,1,1,1,1,1
+Female,80,Yes,0,2,27,None,Yes,7.02,No,Yes,Cable,25,Yes,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,75.2,1929.35,0,189.54,2118.89,Churned,0,1,0,0,0
+Male,22,No,0,0,3,None,Yes,31.48,No,Yes,Fiber Optic,73,No,Yes,Yes,No,No,Yes,Yes,Yes,Month-to-Month,No,Bank Withdrawal,90.4,268.45,0,94.44,362.89,Stayed,0,0,0,0,0
+Male,22,No,0,0,2,Offer E,Yes,40.43,Yes,Yes,Cable,27,No,No,No,No,Yes,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,85.65,181.5,0,80.86,262.36,Churned,0,0,0,0,0
+Female,50,No,2,0,9,None,Yes,35.49,No,Yes,Cable,11,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Credit Card,72.9,651.4,0,319.41,970.81,Churned,1,1,1,1,1
+Male,53,Yes,2,10,50,Offer B,Yes,44.49,Yes,Yes,Cable,28,Yes,No,No,Yes,Yes,No,No,Yes,Two Year,Yes,Credit Card,70.5,3486.65,0,2224.5,5711.15,Stayed,1,1,1,1,1
+Female,45,Yes,2,1,71,None,Yes,31.03,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,No,Bank Withdrawal,20.1,1389.6,0,2203.13,3592.73,Stayed,1,1,1,1,1
+Male,76,Yes,0,2,32,Offer C,Yes,47.34,Yes,Yes,Fiber Optic,10,No,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,74.9,2303.35,0,1514.88,3818.23,Churned,0,1,0,0,0
+Female,57,Yes,3,10,16,Offer D,Yes,27.27,No,Yes,Fiber Optic,76,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Month-to-Month,No,Bank Withdrawal,100.7,1522.7,0,436.32,1959.02,Stayed,1,1,1,1,1
+Female,45,Yes,3,8,67,Offer A,Yes,17.79,Yes,Yes,Fiber Optic,22,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,105.65,6717.9,0,1191.93,7909.83,Stayed,1,1,1,1,1
+Male,43,Yes,1,1,72,None,Yes,15.94,Yes,Yes,Fiber Optic,13,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,114.3,8058.55,0,1147.68,9206.23,Stayed,1,1,1,1,1
+Female,41,No,0,0,3,Offer E,Yes,24.63,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Month-to-Month,No,Bank Withdrawal,19.75,58.85,0,73.89,132.74,Churned,0,0,1,1,0
+Male,22,Yes,3,1,23,None,Yes,48.02,Yes,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,One Year,No,Credit Card,24.35,538.5,0,1104.46,1642.96,Stayed,1,1,1,1,1
+Male,62,Yes,2,1,72,None,Yes,28.37,Yes,Yes,DSL,18,Yes,Yes,Yes,Yes,No,No,No,Yes,Two Year,No,Bank Withdrawal,69.85,5102.35,0,2042.64,7119.75,Stayed,1,1,1,1,1
+Male,21,Yes,2,9,7,Offer E,No,0,no phone service,Yes,Cable,47,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Month-to-Month,No,Credit Card,-3,465.7,0,0,465.7,Stayed,1,1,1,1,1
+Male,49,Yes,3,10,8,Offer E,Yes,1.56,No,Yes,DSL,57,No,No,No,No,Yes,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,54.4,475.1,0,12.48,487.58,Stayed,1,1,1,1,1
+Male,33,Yes,4,9,66,Offer A,No,0,no phone service,Yes,Cable,23,No,No,No,Yes,Yes,Yes,Yes,No,Two Year,No,Bank Withdrawal,50.55,3364.55,110,0,3474.55,Stayed,1,1,1,1,1
+Male,30,No,0,0,5,Offer E,Yes,34.26,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Month-to-Month,No,Credit Card,21.05,113.85,0,171.3,285.15,Churned,1,1,1,1,1
+Male,38,No,1,0,49,None,Yes,44.33,Yes,Yes,Fiber Optic,11,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,103.7,5036.3,0,2172.17,7208.47,Churned,1,1,1,1,1
+Male,56,Yes,0,2,63,Offer B,Yes,38.36,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,Yes,Bank Withdrawal,19.95,1234.8,0,2416.68,3651.48,Stayed,1,1,1,1,1
+Female,70,Yes,1,1,12,Offer D,No,0,no phone service,Yes,DSL,14,No,No,No,Yes,No,No,No,Yes,Month-to-Month,Yes,Mailed Check,29.3,355.9,0,0,355.9,Stayed,0,1,0,0,0
+Male,54,Yes,6,5,27,None,Yes,36.19,No,Yes,DSL,53,Yes,Yes,No,No,No,No,No,Yes,Month-to-Month,Yes,Credit Card,54.75,1510.3,0,977.13,2487.43,Stayed,1,1,1,1,1
+Female,57,No,0,0,35,None,Yes,44.81,No,Yes,DSL,20,Yes,Yes,Yes,No,No,No,No,Yes,Month-to-Month,No,Bank Withdrawal,60.55,1982.6,0,1568.35,3550.95,Stayed,1,1,0,1,1
+Female,40,Yes,2,7,54,Offer B,Yes,4.33,Yes,Yes,DSL,12,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,86.2,4524.05,0,233.82,4757.87,Stayed,1,1,1,1,1
+Male,56,No,0,0,1,None,Yes,5.59,Yes,Yes,Fiber Optic,2,No,No,No,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,95.45,95.45,0,5.59,101.04,Churned,0,0,0,0,0
+Male,38,No,0,0,5,Offer E,Yes,13.96,No,Yes,DSL,5,No,No,Yes,Yes,Yes,No,No,Yes,Month-to-Month,Yes,Credit Card,63.95,318.1,0,69.8,387.9,Stayed,1,1,0,0,1
+Male,61,No,0,0,19,None,Yes,41.79,No,Yes,DSL,6,No,Yes,No,Yes,No,Yes,Yes,No,One Year,Yes,Bank Withdrawal,65.35,1231.85,60,794.01,2085.86,Stayed,1,1,1,1,1
+Male,35,Yes,2,1,52,None,No,0,no phone service,Yes,DSL,17,No,Yes,Yes,Yes,Yes,No,No,Yes,Two Year,No,Credit Card,50.2,2554,0,0,2526.99,Stayed,1,1,1,1,1
+Female,61,Yes,3,8,72,None,No,0,no phone service,Yes,DSL,22,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,63.8,4684.3,0,0,4684.3,Stayed,1,1,1,1,1
+Male,50,No,0,0,32,None,Yes,14.91,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,Yes,Bank Withdrawal,20.05,614.45,0,477.12,1081.84,Stayed,1,1,1,1,1
+Female,47,Yes,0,1,8,None,Yes,16.88,No,Yes,Fiber Optic,6,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Month-to-Month,No,Bank Withdrawal,101.15,842.9,0,135.04,977.94,Churned,0,0,0,0,1
+Male,35,No,0,0,41,Offer B,Yes,37.55,Yes,Yes,DSL,30,No,No,Yes,No,No,Yes,Yes,No,One Year,No,Mailed Check,65,2531.8,140,1539.55,4211.35,Stayed,1,1,1,1,1
+Male,32,No,0,0,5,None,Yes,21.01,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Month-to-Month,Yes,Credit Card,19.25,86.05,0,105.05,191.1,Stayed,1,1,1,1,1
+Female,54,No,1,0,11,None,No,0,no phone service,Yes,DSL,17,Yes,No,No,Yes,No,No,No,No,One Year,Yes,Credit Card,36.05,402.6,100,0,502.6,Stayed,1,1,1,1,1
+Male,61,No,0,0,5,None,Yes,31.09,No,Yes,Fiber Optic,11,No,No,No,Yes,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,96.1,453.4,0,155.45,608.85,Churned,0,0,0,0,1
+Female,62,No,0,0,16,Offer D,Yes,41.51,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,One Year,No,Credit Card,19.05,326.65,0,664.16,990.81,Stayed,1,1,1,1,1
+Male,80,No,0,0,71,None,Yes,6.1,Yes,Yes,Fiber Optic,9,No,Yes,No,Yes,Yes,Yes,No,Yes,One Year,No,Bank Withdrawal,105.75,7382.85,0,433.1,7815.95,Stayed,1,1,1,1,1
+Female,23,No,0,0,11,None,No,0,no phone service,Yes,DSL,59,No,Yes,Yes,Yes,No,No,No,Yes,One Year,Yes,Credit Card,40.4,422.6,0,0,422.6,Stayed,1,1,1,1,1
+Female,63,Yes,0,1,61,None,Yes,49.33,Yes,Yes,Fiber Optic,7,No,Yes,No,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,99.15,6010.05,0,3009.13,9019.18,Churned,0,1,1,0,1
+Female,50,Yes,0,2,71,None,Yes,23.06,No,Yes,Cable,6,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,84.8,6046.1,0,1637.26,7683.36,Stayed,1,1,1,1,1
+Male,56,No,0,0,9,None,Yes,40.74,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Month-to-Month,No,Credit Card,19.85,178.8,0,366.66,545.46,Stayed,1,1,1,1,1
+Female,63,No,0,0,6,None,Yes,39.16,No,Yes,DSL,8,Yes,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,49.45,314.6,0,234.96,549.56,Stayed,1,1,0,0,1
+Female,58,No,0,0,26,None,Yes,38.09,No,Yes,Fiber Optic,22,No,No,No,No,Yes,Yes,Yes,No,Month-to-Month,Yes,Bank Withdrawal,88.8,2274.35,50,990.34,3314.69,Churned,1,1,0,0,1
+Male,33,No,0,0,3,Offer E,Yes,15.12,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Month-to-Month,Yes,Mailed Check,19.8,58.15,0,45.36,103.51,Churned,0,0,1,1,0
+Female,33,No,0,0,10,None,Yes,14.53,Yes,Yes,Fiber Optic,30,No,No,No,Yes,Yes,Yes,Yes,No,Month-to-Month,Yes,Bank Withdrawal,98.5,1058.25,110,145.3,1313.55,Churned,0,0,0,0,1
+Female,22,No,0,0,56,None,Yes,35.59,No,Yes,Fiber Optic,69,No,Yes,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,73.85,4092.85,0,1993.04,6085.89,Churned,1,1,1,1,1
+Male,42,No,3,0,22,Offer D,Yes,29.54,Yes,Yes,Fiber Optic,53,No,Yes,No,No,Yes,No,No,Yes,Month-to-Month,Yes,Credit Card,89.1,1949.4,0,649.88,2599.28,Stayed,1,1,1,1,1
+Male,31,Yes,1,9,72,Offer A,Yes,7.16,Yes,Yes,Fiber Optic,24,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Two Year,Yes,Credit Card,106.1,7548.6,0,515.52,8040.73,Stayed,1,1,1,1,1
+Male,61,No,0,0,1,None,Yes,4.53,Yes,Yes,Fiber Optic,28,No,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,75.1,75.1,0,4.53,79.63,Stayed,0,0,0,0,0
+Female,59,Yes,2,3,39,None,Yes,15.06,No,Yes,DSL,11,Yes,No,No,No,No,No,No,Yes,Month-to-Month,No,Credit Card,51.05,2066,0,587.34,2653.34,Stayed,1,1,1,1,1
+Female,39,No,3,0,1,Offer E,Yes,9,No,Yes,Cable,53,Yes,No,No,No,No,No,No,Yes,Month-to-Month,No,Credit Card,49.9,49.9,0,9,58.9,Stayed,0,0,1,1,0
+Male,44,No,0,0,1,None,Yes,16.06,No,Yes,Fiber Optic,3,No,No,No,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,89.1,89.1,0,16.06,105.16,Churned,0,0,0,0,0
+Male,61,Yes,0,3,52,Offer B,Yes,18.02,Yes,Yes,Fiber Optic,3,Yes,No,Yes,Yes,No,No,No,No,Two Year,Yes,Credit Card,91.6,4627.8,60,937.04,5624.84,Stayed,1,1,1,1,1
+Male,35,Yes,0,1,10,Offer D,Yes,1.09,Yes,Yes,Fiber Optic,18,No,No,Yes,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,98.5,1037.75,0,10.9,1048.65,Churned,0,0,0,0,1
+Male,34,No,0,0,4,None,Yes,38.01,No,Yes,Cable,5,No,Yes,No,No,No,No,No,Yes,Month-to-Month,No,Mailed Check,49.25,208.45,0,152.04,360.49,Stayed,1,1,0,0,1
+Male,21,Yes,0,7,70,Offer A,No,0,no phone service,Yes,DSL,30,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Bank Withdrawal,59.5,4144.8,0,0,4121.08,Stayed,1,1,1,1,1
+Male,39,Yes,0,7,60,None,Yes,30.14,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,No,Credit Card,19.95,1258.15,0,1808.4,3066.55,Stayed,1,1,1,1,1
+Male,78,Yes,0,7,8,Offer E,Yes,25.57,No,Yes,Cable,12,No,No,Yes,Yes,No,Yes,Yes,Yes,Two Year,Yes,Credit Card,64.4,581.7,0,204.56,786.26,Stayed,1,1,1,1,1
+Female,31,Yes,0,1,10,None,Yes,32.07,Yes,Yes,Fiber Optic,22,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Credit Card,102.1,1068.85,0,320.7,1389.55,Churned,0,0,0,0,1
+Female,44,Yes,3,1,3,None,Yes,30.34,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Month-to-Month,No,Credit Card,19.65,60.65,0,91.02,151.67,Stayed,0,0,1,1,0
+Male,69,Yes,1,9,64,None,Yes,37.09,Yes,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,Yes,Bank Withdrawal,24.4,1548.65,0,2373.76,3922.41,Stayed,1,1,1,1,1
+Female,39,Yes,0,6,66,Offer A,Yes,42.23,Yes,Yes,Fiber Optic,30,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,105.2,6936.85,0,2787.18,9724.03,Stayed,1,1,1,1,1
+Male,27,Yes,2,7,49,None,Yes,36.08,Yes,Yes,Fiber Optic,59,No,Yes,Yes,No,Yes,No,No,Yes,One Year,Yes,Bank Withdrawal,93.65,4520.15,0,1767.92,6254.94,Stayed,1,1,1,1,1
+Female,37,No,0,0,1,None,Yes,44.98,No,Yes,DSL,27,No,Yes,No,No,No,No,No,Yes,Month-to-Month,No,Bank Withdrawal,49.95,49.95,0,44.98,94.93,Stayed,0,0,0,0,0
+Male,55,No,1,0,36,None,Yes,21.3,No,Yes,Fiber Optic,18,No,Yes,No,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,94.7,3512.5,0,766.8,4279.3,Stayed,1,1,0,1,1
+Female,24,Yes,0,8,58,None,Yes,26.99,Yes,Yes,Cable,53,Yes,No,No,Yes,No,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,68.4,3972.25,0,1565.42,5537.67,Stayed,1,1,1,1,1
+Male,55,No,0,0,7,Offer E,Yes,34.59,No,Yes,Fiber Optic,12,No,No,Yes,No,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,74.9,490.55,0,242.13,732.68,Stayed,0,0,0,0,1
+Female,39,No,0,0,1,Offer E,Yes,37.5,No,Yes,DSL,3,No,No,No,No,No,No,No,Yes,Month-to-Month,No,Bank Withdrawal,43.8,43.8,0,37.5,81.3,Stayed,0,0,0,0,0
+Male,75,Yes,0,5,72,Offer A,Yes,21.37,Yes,Yes,Fiber Optic,13,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Two Year,Yes,Bank Withdrawal,116.05,8404.9,120,1538.64,10063.54,Stayed,1,1,1,1,1
+Male,76,Yes,0,2,35,None,Yes,4.16,Yes,Yes,Fiber Optic,28,No,No,Yes,No,No,No,No,Yes,One Year,Yes,Bank Withdrawal,81.6,2815.25,0,145.6,2960.85,Stayed,1,1,0,1,1
+Male,52,No,0,0,28,None,Yes,35.52,Yes,Yes,Fiber Optic,26,Yes,Yes,No,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Credit Card,94.5,2659.4,0,994.56,3653.96,Churned,1,1,0,1,1
+Male,45,No,0,0,30,Offer C,Yes,17.26,Yes,Yes,Fiber Optic,19,Yes,No,No,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,100.4,2936.25,0,517.8,3454.05,Stayed,1,1,0,0,1
+Male,49,Yes,1,1,52,None,Yes,11.3,Yes,Yes,Fiber Optic,10,No,Yes,No,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,93.25,4631.7,0,587.6,5219.3,Stayed,1,1,1,1,1
+Female,63,Yes,1,1,72,Offer A,Yes,31.83,Yes,Yes,Fiber Optic,14,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,116.85,8477.7,0,2291.76,10769.46,Stayed,1,1,1,1,1
+Male,31,Yes,1,10,31,None,Yes,9.56,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Month-to-Month,Yes,Bank Withdrawal,20.65,702.05,0,296.36,954.65,Stayed,1,1,1,1,1
+Male,25,Yes,1,2,70,Offer A,Yes,35.9,Yes,Yes,Cable,59,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,One Year,No,Bank Withdrawal,78.35,5445.95,0,2513,7958.95,Stayed,1,1,1,1,1
+Male,51,Yes,2,5,53,None,Yes,26.84,Yes,Yes,Cable,12,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-Month,No,Bank Withdrawal,85.7,4616.1,0,1422.52,6038.62,Stayed,1,1,1,1,1
+Male,28,No,0,0,1,Offer E,Yes,10.98,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Month-to-Month,Yes,Bank Withdrawal,20.2,20.2,0,10.98,31.18,Churned,0,0,0,0,0
+Female,51,Yes,3,1,10,None,Yes,18.62,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,No,Credit Card,20.15,220.8,0,186.2,407,Stayed,1,1,1,1,1
+Female,68,No,0,0,1,None,No,0,no phone service,Yes,Cable,9,No,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Mailed Check,25.7,25.7,0,0,25.7,Churned,0,0,0,0,0
+Female,46,Yes,0,0,29,None,Yes,5.69,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Month-to-Month,No,Mailed Check,19.85,573.05,0,165.01,738.06,Stayed,1,1,1,1,1
+Male,21,Yes,3,4,59,Offer B,Yes,42.37,No,Yes,Cable,73,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Two Year,Yes,Bank Withdrawal,86.75,5186,150,2499.83,7835.83,Stayed,1,1,1,1,1
+Male,34,No,0,0,2,None,Yes,19.52,No,Yes,Cable,16,No,No,No,No,No,No,No,Yes,Month-to-Month,No,Credit Card,45.85,81,0,39.04,120.04,Churned,0,0,0,0,0
+Female,57,No,0,0,58,Offer B,Yes,14.99,No,Yes,Fiber Optic,12,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,106.45,6145.85,0,869.42,7015.27,Churned,1,1,1,1,1
+Male,21,Yes,1,9,45,Offer B,Yes,25.69,Yes,Yes,DSL,26,Yes,Yes,No,Yes,Yes,No,No,Yes,Two Year,No,Credit Card,73.85,3371,0,1156.05,4527.05,Stayed,1,1,1,1,1
+Male,32,No,0,0,12,None,Yes,11.04,No,Yes,Fiber Optic,16,No,No,No,No,Yes,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,81.45,912,0,132.48,1044.48,Stayed,0,0,0,0,1
+Female,36,No,0,0,12,Offer D,Yes,17.46,No,Yes,Fiber Optic,9,No,No,Yes,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,89.4,1095.65,0,209.52,1305.17,Churned,0,0,0,0,1
+Male,23,Yes,0,6,33,Offer C,Yes,48.49,No,Yes,DSL,51,No,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Credit Card,44.55,1462.6,0,1600.17,3062.77,Stayed,1,1,1,1,1
+Female,31,No,0,0,9,Offer E,Yes,36.43,No,Yes,DSL,16,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,74.65,703.55,0,327.87,1031.42,Churned,1,1,0,0,1
+Male,25,Yes,0,1,7,None,Yes,19.23,No,Yes,Fiber Optic,52,No,Yes,No,Yes,Yes,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,89.75,608.8,0,134.61,717.39,Churned,0,0,0,0,1
+Male,34,Yes,0,5,66,None,Yes,32.04,Yes,Yes,DSL,19,No,No,Yes,No,Yes,No,No,Yes,Two Year,Yes,Bank Withdrawal,63.3,4189.7,0,2114.64,6263.72,Stayed,1,1,1,1,1
+Male,63,Yes,0,1,52,None,Yes,46.59,Yes,Yes,Fiber Optic,26,No,No,Yes,Yes,No,Yes,Yes,No,Two Year,Yes,Bank Withdrawal,96.25,4990.25,120,2422.68,7532.93,Churned,1,1,1,1,1
+Female,57,Yes,0,6,49,None,No,0,no phone service,Yes,Cable,11,Yes,No,No,No,Yes,No,No,Yes,Month-to-Month,No,Bank Withdrawal,40.65,2070.75,0,0,2070.75,Stayed,1,1,1,1,1
+Female,34,Yes,2,2,61,Offer B,Yes,42.85,No,Yes,DSL,11,Yes,No,No,No,No,No,No,Yes,One Year,Yes,Bank Withdrawal,49.7,2961.4,0,2613.85,5575.25,Stayed,1,1,1,1,1
+Female,19,No,0,0,24,None,Yes,26.64,Yes,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,No,Credit Card,25.15,553,0,639.36,1192.36,Stayed,1,1,1,1,1
+Female,33,No,0,0,1,None,Yes,14.93,No,Yes,DSL,4,No,No,No,Yes,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,49.9,49.9,0,14.93,64.83,Stayed,0,0,0,0,0
+Male,58,Yes,3,10,17,None,Yes,32.27,Yes,Yes,Cable,28,Yes,No,No,Yes,No,No,No,Yes,One Year,Yes,Credit Card,62.1,1096.65,0,548.59,1645.24,Stayed,1,1,1,1,1
+Female,53,No,0,0,12,Offer D,Yes,23.2,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Month-to-Month,No,Credit Card,20.4,266.6,0,278.4,545,Stayed,1,1,1,1,1
+Male,58,No,0,0,1,Offer E,Yes,47.83,Yes,Yes,DSL,12,No,No,Yes,Yes,No,No,No,No,Month-to-Month,No,Mailed Check,62.05,62.05,10,47.83,119.88,Churned,0,0,0,0,0
+Male,77,Yes,0,2,61,None,Yes,2.19,Yes,Yes,Fiber Optic,8,No,Yes,Yes,Yes,Yes,No,No,Yes,One Year,Yes,Credit Card,98.3,6066.55,0,133.59,6200.14,Stayed,1,1,1,1,1
+Male,19,No,0,0,27,None,Yes,36.39,No,Yes,DSL,26,Yes,No,Yes,Yes,Yes,No,Yes,Yes,One Year,No,Credit Card,69.35,1927.3,0,982.53,2909.83,Stayed,1,1,1,1,1
+Female,53,Yes,2,2,48,Offer B,Yes,36.18,No,Yes,Fiber Optic,29,Yes,No,Yes,No,Yes,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,99.7,4977.2,0,1736.64,6713.84,Stayed,1,1,1,1,1
+Male,50,Yes,0,5,71,None,Yes,44.06,Yes,Yes,Fiber Optic,6,Yes,Yes,Yes,No,Yes,No,No,No,Two Year,Yes,Bank Withdrawal,99,6994.6,40,3128.26,10162.86,Stayed,1,1,1,1,1
+Female,28,Yes,3,9,4,None,Yes,35.2,Yes,Yes,DSL,52,No,Yes,No,Yes,No,No,No,Yes,Month-to-Month,Yes,Credit Card,58.5,224.85,0,140.8,365.65,Stayed,1,1,1,1,1
+Male,40,Yes,0,6,61,None,Yes,27.66,Yes,Yes,Fiber Optic,29,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,106.2,6375.2,0,1687.26,8062.46,Stayed,1,1,1,1,1
+Female,23,No,0,0,31,None,Yes,45.71,Yes,Yes,Fiber Optic,58,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Month-to-Month,No,Bank Withdrawal,104.35,3205.6,0,1417.01,4622.61,Stayed,1,1,0,1,1
+Female,53,Yes,0,1,32,None,Yes,37.48,No,Yes,Fiber Optic,13,No,Yes,No,No,No,Yes,Yes,Yes,Month-to-Month,No,Bank Withdrawal,84.15,2585.95,0,1199.36,3785.31,Churned,0,1,0,0,1
+Female,22,No,0,0,30,None,Yes,42.49,Yes,Yes,Fiber Optic,73,Yes,No,No,Yes,Yes,Yes,Yes,No,Month-to-Month,No,Bank Withdrawal,106.4,3211.9,60,1274.7,4546.6,Stayed,1,1,1,1,1
+Female,31,Yes,1,4,55,Offer B,Yes,31.3,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Month-to-Month,No,Credit Card,20,1087.25,0,1721.5,2808.75,Stayed,1,1,1,1,1
+Female,37,Yes,0,0,42,Offer B,Yes,5.95,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Month-to-Month,No,Credit Card,20.35,869.9,0,249.9,1119.8,Stayed,1,1,1,1,1
+Female,21,Yes,0,1,70,Offer A,Yes,16.78,Yes,Yes,Fiber Optic,48,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,114.2,7723.9,0,1174.6,8849.96,Churned,1,1,1,1,1
+Female,25,Yes,2,1,71,Offer A,Yes,29.41,Yes,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,No,Credit Card,23.9,1663.5,0,2088.11,3751.61,Stayed,1,1,1,1,1
+Female,25,No,0,0,43,Offer B,Yes,24.85,Yes,Yes,Fiber Optic,26,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Credit Card,115.05,4895.1,0,1068.55,5952.89,Stayed,1,1,1,1,1
+Male,37,No,0,0,19,Offer D,No,0,no phone service,Yes,DSL,6,No,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,25.15,468.35,0,0,468.35,Stayed,1,1,0,1,1
+Male,33,Yes,1,1,19,Offer D,Yes,13.13,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,One Year,No,Credit Card,19.8,344.5,0,249.47,593.97,Stayed,1,1,1,1,1
+Female,43,No,0,0,12,None,Yes,18.71,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Month-to-Month,No,Credit Card,19.7,220.35,0,224.52,444.87,Stayed,1,1,1,1,1
+Male,53,No,0,0,4,None,Yes,3.03,No,Yes,DSL,11,No,Yes,No,Yes,Yes,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,63.75,226.2,0,12.12,238.32,Stayed,1,1,0,0,1
+Female,79,No,0,0,13,None,Yes,4.45,Yes,Yes,Fiber Optic,25,No,No,No,No,No,Yes,No,Yes,Month-to-Month,Yes,Bank Withdrawal,82,1127.2,0,57.85,1185.05,Churned,0,0,0,0,0
+Female,21,No,0,0,4,None,Yes,41.72,Yes,Yes,Fiber Optic,69,No,Yes,Yes,No,No,No,Yes,Yes,Month-to-Month,No,Bank Withdrawal,84.05,333.55,0,166.88,500.43,Churned,0,0,0,0,1
+Male,59,No,0,0,8,None,Yes,23.89,Yes,Yes,Fiber Optic,14,No,Yes,Yes,No,Yes,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,94,773.65,0,191.12,964.77,Churned,0,0,0,0,1
+Male,65,Yes,0,7,70,None,Yes,12.07,Yes,Yes,DSL,17,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Credit Card,90.05,6333.4,0,844.9,7178.3,Stayed,1,1,1,1,1
+Male,39,Yes,0,4,68,Offer A,Yes,38.38,Yes,Yes,DSL,20,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,92.2,6392.85,0,2609.84,9002.69,Stayed,1,1,1,1,1
+Male,55,Yes,0,1,5,None,Yes,1.16,Yes,Yes,Fiber Optic,7,No,Yes,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,78.75,412.1,10,5.8,427.9,Churned,0,0,0,0,1
+Male,20,No,0,0,12,None,Yes,28.16,Yes,Yes,Fiber Optic,42,No,No,No,Yes,Yes,Yes,Yes,No,Month-to-Month,Yes,Credit Card,99.95,1132.75,120,337.92,1590.67,Churned,0,1,0,0,1
+Male,26,Yes,3,1,57,None,Yes,4.18,No,Yes,Fiber Optic,73,No,Yes,Yes,No,Yes,Yes,Yes,Yes,One Year,Yes,Credit Card,97.55,5598,0,238.26,5836.26,Stayed,1,1,1,1,1
+Female,60,Yes,1,10,51,Offer B,Yes,14.54,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,No,Credit Card,19.95,1028.75,0,741.54,1770.29,Stayed,1,1,1,1,1
+Female,64,No,0,0,4,Offer E,Yes,7.49,No,Yes,Cable,17,Yes,Yes,No,No,No,No,No,Yes,Month-to-Month,No,Bank Withdrawal,55.2,220.65,0,29.96,250.61,Stayed,1,1,0,0,1
+Male,70,Yes,0,2,70,Offer A,Yes,14.48,No,Yes,Fiber Optic,7,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Two Year,No,Credit Card,105.35,7511.9,0,1013.6,8525.5,Stayed,1,1,1,1,1
+Female,42,Yes,0,1,30,None,Yes,15.36,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Month-to-Month,No,Bank Withdrawal,19.65,655.85,0,460.8,1116.65,Churned,1,1,1,1,1
+Male,31,No,0,0,7,Offer E,Yes,35.91,Yes,Yes,Fiber Optic,27,No,No,Yes,No,Yes,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,90.45,593.45,0,251.37,844.82,Churned,0,0,0,0,1
+Male,66,No,0,0,19,None,Yes,29.8,No,Yes,Fiber Optic,16,Yes,No,No,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,87.3,1637.3,0,566.2,2203.5,Stayed,0,1,0,0,0
+Male,26,No,0,0,1,Offer E,Yes,23.63,Yes,Yes,Cable,85,No,Yes,No,Yes,No,No,No,Yes,Month-to-Month,No,Mailed Check,60.1,60.1,0,23.63,83.73,Churned,0,0,0,0,0
+Male,60,No,0,0,12,None,Yes,16.45,Yes,Yes,Cable,23,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Mailed Check,112.95,1384.75,0,197.4,1582.15,Churned,0,1,0,0,1
+Male,36,No,0,0,17,Offer D,Yes,46.6,No,Yes,Cable,2,No,No,No,Yes,No,No,No,Yes,Month-to-Month,No,Mailed Check,51.5,900.5,0,792.2,1657.36,Churned,1,1,0,1,1
+Male,79,Yes,0,1,66,Offer A,Yes,28.86,Yes,Yes,Fiber Optic,25,No,No,Yes,No,Yes,Yes,No,Yes,Month-to-Month,Yes,Credit Card,99.5,6822.15,0,1904.76,8726.91,Churned,0,1,1,0,0
+Male,26,No,0,0,3,None,Yes,36.48,No,Yes,DSL,59,No,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,45.35,141.5,0,109.44,250.94,Churned,0,0,0,0,0
+Male,76,Yes,0,7,51,Offer B,Yes,2.21,Yes,Yes,Fiber Optic,10,Yes,No,Yes,No,No,Yes,No,Yes,One Year,Yes,Bank Withdrawal,93.65,4839.15,0,112.71,4951.86,Stayed,1,1,1,1,1
+Male,38,No,0,0,51,None,Yes,5.62,Yes,Yes,Fiber Optic,16,No,No,Yes,No,No,No,No,Yes,Month-to-Month,No,Credit Card,80,4242.35,0,286.62,4528.97,Churned,1,1,0,1,1
+Female,44,Yes,0,10,71,None,Yes,18.41,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,No,Credit Card,19.85,1379.6,0,1307.11,2686.71,Stayed,1,1,1,1,1
+Male,53,No,0,0,35,Offer C,Yes,25.04,Yes,Yes,Fiber Optic,21,No,No,No,No,No,No,No,Yes,Month-to-Month,No,Credit Card,75.35,2636.05,0,876.4,3512.45,Churned,1,1,0,1,1
+Female,64,No,0,0,11,None,Yes,2.95,No,Yes,DSL,21,No,Yes,No,No,No,No,No,Yes,Month-to-Month,No,Bank Withdrawal,51.1,531.15,0,32.45,563.6,Stayed,1,1,0,0,1
+Female,39,No,0,0,2,Offer E,Yes,41.64,No,Yes,DSL,25,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-Month,No,Bank Withdrawal,76.4,160.8,0,83.28,244.08,Churned,0,0,0,0,0
+Female,74,No,0,0,26,None,Yes,47.63,Yes,Yes,Fiber Optic,26,Yes,Yes,No,No,No,Yes,No,No,Month-to-Month,Yes,Bank Withdrawal,95,2497.2,60,1238.38,3795.58,Churned,0,1,0,0,0
+Male,47,Yes,3,9,69,None,Yes,26.35,Yes,Yes,DSL,53,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Bank Withdrawal,86.9,6194.1,0,1818.15,8012.25,Stayed,1,1,1,1,1
+Female,50,Yes,0,1,63,None,Yes,1.93,Yes,Yes,Fiber Optic,21,No,Yes,Yes,No,Yes,Yes,Yes,No,One Year,Yes,Bank Withdrawal,107.5,6873.75,60,121.59,7055.34,Churned,0,1,1,0,1
+Female,58,No,3,0,41,None,Yes,38.94,No,Yes,DSL,28,No,No,No,No,No,No,No,Yes,Month-to-Month,No,Bank Withdrawal,45.2,1841.9,0,1596.54,3438.44,Stayed,1,1,1,1,1
+Female,47,Yes,3,5,47,None,Yes,3.95,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,Yes,Bank Withdrawal,21.3,1041.8,0,185.65,1227.45,Stayed,1,1,1,1,1
+Male,31,Yes,0,1,72,None,Yes,34.87,Yes,Yes,Fiber Optic,8,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,117.8,8684.8,0,2510.64,11195.44,Churned,0,1,1,1,1
+Female,26,No,0,0,59,Offer B,Yes,1.94,Yes,Yes,DSL,73,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,One Year,No,Credit Card,79.85,4786.1,0,114.46,4900.56,Stayed,1,1,1,1,1
+Female,20,Yes,3,5,18,None,Yes,20,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,No,Credit Card,19.35,309.25,0,360,669.25,Stayed,1,1,1,1,1
+Female,19,Yes,0,1,25,Offer C,No,0,no phone service,Yes,Cable,82,No,No,No,No,Yes,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,34,853,0,0,853,Churned,0,1,0,0,1
+Male,46,Yes,0,5,40,Offer B,Yes,12.97,No,Yes,Fiber Optic,24,No,Yes,Yes,No,No,No,No,Yes,One Year,No,Bank Withdrawal,80.8,3132.75,0,518.8,3651.55,Stayed,1,1,1,1,1
+Male,31,No,0,0,2,None,Yes,11.19,No,Yes,Fiber Optic,14,No,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,69.8,146.65,10,22.38,179.03,Stayed,0,0,0,0,0
+Female,30,Yes,0,1,21,None,No,0,no phone service,Yes,Cable,69,Yes,No,Yes,No,Yes,Yes,Yes,No,One Year,Yes,Bank Withdrawal,55.95,1157.05,10,0,1167.05,Churned,1,1,1,1,1
+Male,36,Yes,1,10,68,Offer A,Yes,34.62,Yes,Yes,Fiber Optic,18,No,Yes,No,No,Yes,Yes,Yes,Yes,One Year,Yes,Credit Card,101.05,6770.5,0,2354.16,9124.66,Stayed,1,1,1,1,1
+Female,73,Yes,0,2,70,Offer A,Yes,15.9,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,Yes,Credit Card,19.55,1462.05,0,1113,2575.05,Stayed,1,1,1,1,1
+Male,48,Yes,2,1,1,None,Yes,41.1,No,Yes,DSL,18,No,No,No,No,No,No,No,Yes,Month-to-Month,No,Bank Withdrawal,44.55,44.55,0,41.1,85.65,Stayed,0,0,0,0,0
+Female,24,Yes,0,8,72,Offer A,Yes,16.15,Yes,Yes,Fiber Optic,52,Yes,Yes,No,No,No,No,Yes,Yes,Two Year,Yes,Bank Withdrawal,84.05,6052.25,0,1162.8,7215.05,Stayed,1,1,1,1,1
+Female,61,Yes,0,9,2,None,Yes,7.49,No,Yes,Fiber Optic,14,No,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Credit Card,70.4,154.8,0,14.98,169.78,Stayed,0,0,1,1,0
+Female,21,Yes,0,7,11,None,Yes,1.92,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,One Year,No,Credit Card,20.6,233.9,0,21.12,255.02,Stayed,1,1,1,1,1
+Female,40,Yes,2,9,56,None,Yes,29.06,Yes,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,Yes,Credit Card,24.95,1468.9,0,1627.36,3096.26,Stayed,1,1,1,1,1
+Female,41,No,0,0,36,Offer C,No,0,no phone service,Yes,Cable,2,No,Yes,No,Yes,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,34.85,1267.2,0,0,1267.2,Stayed,1,1,0,1,1
+Male,42,No,0,0,37,None,Yes,44.52,Yes,Yes,DSL,6,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,90.6,3358.65,0,1647.24,4996.93,Stayed,1,1,1,1,1
+Female,50,Yes,0,3,39,None,No,0,no phone service,Yes,DSL,13,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Month-to-Month,No,Bank Withdrawal,55.9,2184.35,0,0,2184.35,Churned,1,1,1,1,1
+Male,29,No,3,0,18,Offer D,Yes,41.08,Yes,Yes,Fiber Optic,48,No,No,Yes,No,No,No,No,Yes,Month-to-Month,Yes,Credit Card,80.55,1406.65,0,739.44,2146.09,Stayed,1,1,1,1,1
+Male,29,No,0,0,19,None,Yes,11.42,Yes,Yes,Fiber Optic,41,Yes,No,Yes,No,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,84.75,1651.95,0,216.98,1819.55,Stayed,1,0,0,1,1
+Female,36,No,0,0,4,None,Yes,24.09,No,Yes,Fiber Optic,17,No,Yes,No,No,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,76.65,333.6,0,96.36,429.96,Churned,0,0,0,0,1
+Male,46,Yes,1,10,1,None,Yes,11.45,No,Yes,Fiber Optic,14,No,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Credit Card,69.95,69.95,0,11.45,81.4,Stayed,0,0,1,1,0
+Female,76,Yes,0,0,38,None,Yes,3.42,No,Yes,Fiber Optic,15,Yes,No,No,No,No,Yes,No,Yes,Two Year,Yes,Bank Withdrawal,83.45,3147.15,0,129.96,3252.13,Stayed,1,1,0,0,1
+Male,38,Yes,2,5,10,Offer E,Yes,46.23,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,One Year,Yes,Credit Card,19.7,197.54,0,462.3,659.84,Stayed,1,1,1,1,1
+Male,28,Yes,0,7,56,None,Yes,46.9,Yes,Yes,Fiber Optic,48,Yes,No,No,No,Yes,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,100.55,5514.95,0,2626.4,8141.35,Stayed,1,1,1,1,1
+Female,37,No,0,0,30,Offer C,Yes,22.64,Yes,Yes,DSL,18,No,Yes,Yes,No,Yes,No,No,Yes,One Year,Yes,Credit Card,68.95,2038.7,0,679.2,2717.9,Stayed,1,1,1,1,1
+Male,64,Yes,2,1,72,Offer A,Yes,28.63,Yes,Yes,DSL,19,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Credit Card,88.7,6501.35,0,2061.36,8562.71,Stayed,1,1,1,1,1
+Female,26,No,0,0,8,None,Yes,5.27,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,One Year,Yes,Bank Withdrawal,20.2,140.95,0,42.16,183.11,Stayed,1,1,1,1,1
+Female,64,Yes,1,1,53,Offer B,Yes,28.36,Yes,Yes,Fiber Optic,17,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,104.05,5566.4,0,1503.08,7069.48,Stayed,1,1,1,1,1
+Male,44,Yes,0,1,46,Offer B,Yes,10.13,Yes,Yes,Fiber Optic,3,No,Yes,Yes,No,Yes,No,No,Yes,One Year,Yes,Bank Withdrawal,94.65,4312.5,0,465.98,4778.48,Stayed,1,1,1,1,1
+Female,31,No,0,0,6,Offer E,Yes,7.72,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Month-to-Month,No,Credit Card,20.7,112.75,0,46.32,159.07,Stayed,1,1,1,1,1
+Female,22,Yes,0,1,8,Offer E,Yes,38.83,No,Yes,Fiber Optic,76,No,No,Yes,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,94.2,777.3,0,310.64,1087.94,Churned,0,0,0,0,1
+Female,21,Yes,0,1,56,None,Yes,19.16,Yes,Yes,Fiber Optic,48,No,Yes,No,No,Yes,Yes,Yes,No,One Year,Yes,Bank Withdrawal,98.25,5508.35,150,1072.96,6731.31,Churned,0,1,1,1,1
+Female,29,No,0,0,31,Offer C,Yes,31.14,Yes,Yes,Cable,52,Yes,No,Yes,Yes,No,No,No,No,Month-to-Month,No,Credit Card,65.25,1994.3,120,965.34,3079.64,Churned,1,1,1,1,1
+Male,76,No,0,0,13,None,Yes,49.9,No,Yes,DSL,30,No,Yes,No,No,Yes,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,59.9,788.35,0,648.7,1437.05,Stayed,0,1,0,0,0
+Male,59,Yes,3,6,40,Offer B,Yes,11.5,Yes,Yes,Fiber Optic,22,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Credit Card,110.1,4469.1,0,460,4929.1,Stayed,1,1,1,1,1
+Female,71,Yes,0,0,59,None,Yes,19.14,Yes,Yes,Fiber Optic,13,Yes,Yes,Yes,Yes,No,No,No,No,One Year,Yes,Bank Withdrawal,94.05,5483.9,30,1129.26,6643.16,Stayed,1,1,1,1,1
+Female,41,Yes,3,7,50,None,Yes,47.48,No,Yes,Fiber Optic,27,No,No,Yes,Yes,Yes,Yes,Yes,Yes,One Year,No,Credit Card,103.05,5153.5,0,2374,7527.5,Stayed,1,1,1,1,1
+Female,53,Yes,3,0,2,None,No,0,no phone service,Yes,DSL,52,No,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Credit Card,24.4,36.55,0,0,36.55,Churned,0,0,1,0,0
+Female,56,No,0,0,46,Offer B,Yes,46.83,Yes,Yes,DSL,2,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Two Year,No,Mailed Check,79.2,3593.8,0,2154.18,5747.98,Stayed,1,1,1,1,1
+Female,45,No,3,0,18,Offer D,Yes,42.45,Yes,Yes,DSL,28,Yes,No,No,No,No,Yes,Yes,Yes,Month-to-Month,No,Bank Withdrawal,64.8,1166.7,0,764.1,1930.8,Stayed,1,1,1,1,1
+Female,59,No,0,0,35,Offer C,No,0,no phone service,Yes,Cable,12,No,No,Yes,Yes,No,No,No,No,Month-to-Month,Yes,Credit Card,33.45,1175.85,30,0,1205.85,Stayed,1,1,0,1,1
+Male,47,No,2,0,1,None,Yes,11.86,No,Yes,Cable,13,Yes,No,No,No,No,No,No,Yes,Month-to-Month,No,Credit Card,50.6,50.6,0,11.86,62.46,Churned,0,0,1,1,0
+Male,28,No,0,0,4,None,Yes,42.33,Yes,Yes,Fiber Optic,76,No,No,No,Yes,No,No,Yes,Yes,Month-to-Month,No,Credit Card,80.8,332.45,0,169.32,501.77,Churned,0,0,0,0,1
+Male,30,No,0,0,5,None,Yes,36.52,Yes,Yes,Fiber Optic,27,No,Yes,Yes,No,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,85.3,424.15,0,182.6,606.75,Churned,0,0,0,0,1
+Female,64,Yes,0,7,69,None,Yes,39.88,Yes,Yes,Cable,17,Yes,No,Yes,Yes,No,No,No,No,Two Year,Yes,Credit Card,64.15,4254.1,40,2751.72,7045.82,Stayed,1,1,1,1,1
+Male,41,Yes,0,1,17,None,Yes,16.61,No,Yes,Fiber Optic,3,No,No,No,No,Yes,No,No,Yes,Month-to-Month,No,Bank Withdrawal,80.85,1400.85,0,282.37,1683.22,Churned,0,0,0,0,1
+Female,48,No,0,0,1,None,Yes,43.52,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Month-to-Month,Yes,Bank Withdrawal,20.2,20.2,0,43.52,63.72,Churned,0,0,0,0,0
+Male,71,Yes,0,1,24,None,Yes,2.05,Yes,Yes,Fiber Optic,22,Yes,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,78.85,1772.25,0,49.2,1821.45,Churned,0,0,0,0,0
+Female,69,No,0,0,62,None,Yes,19.52,Yes,Yes,Fiber Optic,3,No,No,No,No,Yes,No,No,Yes,One Year,No,Bank Withdrawal,84.45,4959.15,0,1210.24,6169.39,Stayed,1,1,1,1,1
+Male,49,No,0,0,12,None,Yes,11.12,No,Yes,DSL,14,No,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,45.4,518.9,0,133.44,652.34,Churned,1,1,0,0,1
+Male,45,No,0,0,23,None,Yes,35.32,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Month-to-Month,No,Bank Withdrawal,20.85,473.9,0,812.36,1286.26,Stayed,1,1,1,1,1
+Female,54,Yes,2,10,45,Offer B,No,0,no phone service,Yes,DSL,18,Yes,No,No,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,50.9,2333.85,0,0,2333.85,Stayed,1,1,1,1,1
+Female,64,No,0,0,9,None,Yes,48.38,No,Yes,Fiber Optic,8,No,No,Yes,No,No,Yes,Yes,No,Month-to-Month,Yes,Credit Card,85.3,781.4,10,435.42,1226.82,Stayed,0,0,0,0,1
+Male,60,Yes,0,3,4,None,Yes,32.43,No,Yes,Fiber Optic,13,No,No,No,No,Yes,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,80.35,307.4,0,129.72,437.12,Churned,0,0,0,0,1
+Male,60,No,0,0,24,None,Yes,9.53,No,Yes,Fiber Optic,24,No,Yes,Yes,Yes,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,85.95,2107.15,0,228.72,2335.87,Stayed,1,1,0,1,1
+Female,42,Yes,0,2,71,Offer A,Yes,24.71,Yes,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,Yes,Credit Card,25.95,1801.9,0,1754.41,3556.31,Stayed,1,1,1,1,1
+Male,56,No,0,0,2,Offer E,Yes,6.47,No,Yes,DSL,21,No,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,45.15,98.5,0,12.94,111.44,Churned,0,0,0,0,0
+Male,29,Yes,0,9,1,None,Yes,43.57,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,One Year,No,Mailed Check,18.8,18.8,0,43.57,62.37,Stayed,0,0,1,1,0
+Female,41,No,0,0,10,None,Yes,45.21,Yes,Yes,Fiber Optic,3,No,No,Yes,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,100.6,1060.2,0,452.1,1512.3,Churned,0,0,0,0,1
+Female,53,No,0,0,2,None,No,0,no phone service,Yes,Cable,21,No,Yes,No,No,Yes,Yes,Yes,Yes,Month-to-Month,No,Bank Withdrawal,51.4,96.8,0,0,96.8,Stayed,0,0,0,0,0
+Female,28,No,0,0,67,Offer A,Yes,35.99,No,Yes,DSL,73,Yes,Yes,No,Yes,No,No,No,Yes,One Year,No,Credit Card,60.5,3870,0,2411.33,6281.33,Stayed,1,1,1,1,1
+Female,39,Yes,3,1,7,None,Yes,18.91,No,Yes,DSL,29,Yes,Yes,Yes,No,Yes,No,No,Yes,One Year,No,Bank Withdrawal,69.45,477.05,0,132.37,609.42,Stayed,1,1,1,1,1
+Female,34,No,0,0,13,Offer D,Yes,38.4,Yes,Yes,DSL,23,Yes,No,Yes,No,Yes,Yes,Yes,No,Month-to-Month,Yes,Bank Withdrawal,78.75,995.35,50,499.2,1544.55,Stayed,1,1,0,0,1
+Female,47,No,0,0,57,None,Yes,38.94,Yes,Yes,Fiber Optic,7,No,Yes,No,Yes,No,Yes,Yes,Yes,One Year,No,Bank Withdrawal,94.7,5468.95,0,2219.58,7688.53,Stayed,1,1,1,1,1
+Female,74,Yes,0,0,36,Offer C,Yes,11.32,Yes,Yes,Fiber Optic,16,No,Yes,No,No,Yes,No,No,Yes,Month-to-Month,Yes,Credit Card,91.95,3301.05,0,407.52,3690.81,Stayed,0,1,0,0,0
+Female,61,No,0,0,66,None,Yes,13.28,Yes,Yes,DSL,24,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,90.05,5965.95,0,876.48,6842.43,Stayed,1,1,1,1,1
+Female,33,No,0,0,22,Offer D,Yes,32.75,Yes,Yes,DSL,24,Yes,No,No,Yes,No,No,No,Yes,Month-to-Month,Yes,Credit Card,59.05,1253.5,0,720.5,1974,Stayed,1,1,0,1,1
+Female,57,Yes,0,1,17,Offer D,Yes,25.79,Yes,Yes,Cable,12,Yes,No,Yes,No,Yes,No,No,Yes,Month-to-Month,No,Bank Withdrawal,94.4,1607.2,0,438.43,2045.63,Churned,0,1,0,0,1
+Female,75,No,0,0,1,None,Yes,39.61,Yes,Yes,Fiber Optic,16,No,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Credit Card,74.45,74.45,0,39.61,114.06,Churned,0,0,0,0,0
+Female,64,Yes,0,1,11,Offer D,Yes,25.67,Yes,Yes,Fiber Optic,18,No,No,No,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,94,1078.9,0,282.37,1361.27,Churned,0,0,0,0,1
+Female,27,Yes,0,1,2,None,Yes,8.5,No,Yes,Fiber Optic,59,No,Yes,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,73.55,145.4,0,17,162.4,Churned,0,0,0,0,0
+Female,52,No,0,0,3,None,Yes,17.01,No,Yes,Fiber Optic,28,No,Yes,No,No,Yes,Yes,Yes,Yes,Month-to-Month,No,Bank Withdrawal,95.4,293.15,0,51.03,344.18,Stayed,0,0,0,0,0
+Male,51,No,0,0,4,None,Yes,7.26,No,Yes,Fiber Optic,29,No,No,Yes,No,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,74.8,321.9,0,29.04,350.94,Churned,0,0,0,0,1
+Female,38,Yes,0,9,69,Offer A,Yes,5.27,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,No,Bank Withdrawal,19.75,1375.4,0,363.63,1739.03,Stayed,1,1,1,1,1
+Male,38,Yes,3,6,72,Offer A,Yes,32.22,Yes,Yes,Fiber Optic,25,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Two Year,Yes,Credit Card,104.9,7732.65,0,2319.84,10052.49,Stayed,1,1,1,1,1
+Female,46,No,0,0,23,Offer D,Yes,18.12,Yes,Yes,Fiber Optic,23,No,No,No,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,93.5,2341.55,0,416.76,2758.31,Stayed,1,1,0,0,1
+Male,32,Yes,3,5,40,Offer B,Yes,13.86,Yes,Yes,DSL,75,No,No,Yes,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,74.55,3015.75,0,554.4,3570.15,Stayed,1,1,1,1,1
+Female,44,No,0,0,70,None,Yes,16.93,Yes,Yes,DSL,10,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Two Year,No,Credit Card,84.7,5991.05,0,1185.1,7176.15,Stayed,1,1,1,1,1
+Female,68,Yes,0,10,70,None,Yes,38.5,Yes,Yes,Fiber Optic,25,Yes,No,No,No,No,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,90.85,6470.1,0,2695,9165.1,Stayed,1,1,1,1,1
+Female,58,No,0,0,3,Offer E,Yes,29.51,No,Yes,Cable,17,No,No,Yes,No,Yes,Yes,Yes,No,One Year,Yes,Bank Withdrawal,69.95,220.45,30,88.53,338.98,Stayed,1,0,0,0,0
+Male,27,No,0,0,69,Offer A,Yes,5.71,Yes,Yes,Fiber Optic,73,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,110.05,7430.75,0,393.99,7801.58,Stayed,1,1,1,1,1
+Female,58,No,0,0,6,Offer E,Yes,47.92,No,Yes,Fiber Optic,25,No,No,No,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,89.5,573.3,0,287.52,860.82,Churned,0,0,0,0,1
+Male,55,No,0,0,72,None,Yes,45.41,Yes,Yes,Cable,20,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Bank Withdrawal,92,6632.75,0,3269.52,9902.27,Stayed,1,1,1,1,1
+Female,41,Yes,0,1,67,Offer A,Yes,3.2,Yes,Yes,DSL,23,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Bank Withdrawal,86.15,5883.85,0,214.4,6098.25,Stayed,1,1,1,1,1
+Female,74,Yes,0,1,40,None,Yes,19.76,No,Yes,Fiber Optic,22,No,Yes,No,Yes,Yes,Yes,Yes,Yes,One Year,Yes,Credit Card,99.2,4062.2,0,790.4,4852.6,Churned,0,1,1,1,1
+Female,20,Yes,1,1,19,None,Yes,31.58,Yes,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,Yes,Bank Withdrawal,24.9,467.7,0,600.02,1067.72,Stayed,1,1,1,1,1
+Male,25,No,0,0,70,Offer A,No,0,no phone service,Yes,DSL,59,No,No,No,Yes,No,Yes,Yes,Yes,Two Year,Yes,Mailed Check,40.05,2799.75,0,0,2799.75,Stayed,1,1,1,1,1
+Female,23,No,0,0,21,None,Yes,17.35,No,Yes,DSL,71,Yes,Yes,No,Yes,Yes,No,No,No,Two Year,No,Credit Card,71.05,1524.85,140,364.35,2012.29,Stayed,1,1,1,1,1
+Male,76,Yes,0,1,32,Offer C,Yes,43.51,Yes,Yes,Fiber Optic,22,No,No,Yes,Yes,Yes,Yes,No,Yes,Month-to-Month,Yes,Bank Withdrawal,104.9,3351.55,0,1392.32,4710.14,Churned,0,1,0,0,0
+Male,69,Yes,1,1,29,Offer C,Yes,49.36,Yes,Yes,Fiber Optic,19,No,No,Yes,No,Yes,Yes,No,Yes,Month-to-Month,Yes,Bank Withdrawal,103.95,2964.8,0,1431.44,4396.24,Stayed,0,1,0,0,0
+Female,25,No,0,0,29,Offer C,Yes,16.38,Yes,Yes,Fiber Optic,82,No,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,74.2,1993.25,0,475.02,2468.27,Stayed,1,1,0,1,1
+Female,22,Yes,0,0,25,None,Yes,29.81,No,Yes,Fiber Optic,52,No,No,No,Yes,Yes,Yes,Yes,No,Month-to-Month,Yes,Bank Withdrawal,95.15,2395.7,80,745.25,3220.95,Stayed,1,1,0,0,1
+Male,73,No,0,0,55,Offer B,Yes,8.93,Yes,Yes,Fiber Optic,21,Yes,No,No,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,98.8,5617.75,0,491.15,6108.9,Churned,1,1,0,1,0
+Female,54,Yes,0,4,55,Offer B,Yes,33.66,Yes,Yes,Fiber Optic,25,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Credit Card,103.65,5676.65,0,1851.3,7527.95,Stayed,1,1,1,1,1
+Female,34,No,0,0,2,None,Yes,42.89,Yes,Yes,Fiber Optic,13,No,No,No,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,94.2,193.8,0,85.78,279.58,Churned,0,0,0,0,0
+Female,28,No,0,0,2,None,Yes,13.89,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Month-to-Month,Yes,Bank Withdrawal,20.7,39.85,0,27.78,67.63,Stayed,0,0,0,0,0
+Female,42,Yes,1,10,65,Offer B,Yes,1.83,Yes,Yes,Cable,13,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,79.4,5071.9,0,118.95,5190.85,Stayed,1,1,1,1,1
+Female,78,Yes,1,8,56,Offer B,Yes,5.93,No,Yes,DSL,19,Yes,No,No,Yes,Yes,Yes,No,No,Two Year,Yes,Credit Card,72.6,4084.35,140,332.08,4556.43,Stayed,1,1,1,1,1
+Male,59,Yes,0,1,15,None,Yes,18.6,Yes,Yes,Fiber Optic,13,No,No,Yes,Yes,Yes,Yes,Yes,No,Month-to-Month,Yes,Bank Withdrawal,103.45,1539.8,140,279,1958.8,Stayed,0,0,0,0,1
+Female,57,No,0,0,56,Offer B,Yes,13.89,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,Yes,Bank Withdrawal,19.55,1080.55,0,777.84,1858.39,Stayed,1,1,1,1,1
+Male,43,No,0,0,9,Offer E,Yes,34.34,Yes,Yes,Fiber Optic,6,Yes,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,81.15,784.45,50,309.06,1143.51,Stayed,0,0,0,0,1
+Male,25,Yes,0,1,16,None,Yes,25.83,Yes,Yes,Fiber Optic,46,No,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,75.4,1189.4,0,413.28,1602.68,Stayed,0,0,0,0,1
+Male,23,Yes,2,8,69,Offer A,Yes,26.44,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,One Year,Yes,Credit Card,20.55,1403.1,0,1824.36,3227.46,Stayed,1,1,1,1,1
+Female,46,Yes,0,8,68,Offer A,Yes,23.14,Yes,Yes,Fiber Optic,21,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Bank Withdrawal,114.9,7843.55,0,1573.52,9417.07,Stayed,1,1,1,1,1
+Male,74,Yes,2,3,50,None,Yes,32.9,Yes,Yes,DSL,18,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,75.15,3822.45,0,1645,5467.45,Stayed,1,1,1,1,1
+Male,27,Yes,0,1,53,Offer B,Yes,31.24,Yes,Yes,Fiber Optic,73,Yes,No,Yes,No,No,Yes,Yes,Yes,Month-to-Month,No,Bank Withdrawal,93.9,5029.2,0,1655.72,6684.92,Churned,0,1,1,1,1
+Male,53,No,0,0,10,Offer D,No,0,no phone service,Yes,DSL,22,No,Yes,No,Yes,No,No,No,Yes,Month-to-Month,No,Bank Withdrawal,35.75,389.8,0,0,389.8,Stayed,1,1,0,1,1
+Female,24,No,2,0,26,None,No,0,no phone service,Yes,DSL,27,No,No,Yes,No,No,No,No,Yes,Month-to-Month,Yes,Credit Card,29.8,786.5,0,0,776.22,Stayed,1,1,0,1,1
+Female,63,No,0,0,16,None,Yes,40.95,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,One Year,No,Credit Card,19.35,295.55,0,655.2,950.75,Stayed,1,1,1,1,1
+Female,46,Yes,0,8,70,None,No,0,no phone service,Yes,Cable,26,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,49.85,3370.2,0,0,3370.2,Stayed,1,1,1,1,1
+Male,61,Yes,0,2,72,Offer A,Yes,34.29,Yes,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,No,Credit Card,25.4,1710.9,0,2468.88,4179.78,Stayed,1,1,1,1,1
+Female,64,No,0,0,12,None,Yes,34.92,No,Yes,Cable,23,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,98.9,1120.95,0,419.04,1539.99,Churned,0,0,0,0,1
+Male,35,No,3,0,17,None,Yes,45.61,No,Yes,DSL,53,Yes,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Credit Card,50.3,846.8,0,775.37,1622.17,Stayed,1,1,1,1,1
+Male,61,No,0,0,1,Offer E,Yes,43.03,No,Yes,DSL,3,No,Yes,No,No,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,50.75,50.75,0,43.03,93.78,Churned,0,0,0,0,0
+Female,57,No,0,0,10,None,Yes,2.84,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,One Year,Yes,Credit Card,19.8,198.25,0,28.4,226.65,Stayed,1,1,1,1,1
+Male,57,No,0,0,7,None,Yes,5.61,No,Yes,DSL,24,No,No,No,No,Yes,No,No,Yes,Month-to-Month,No,Mailed Check,54.85,370.4,0,39.27,409.67,Stayed,1,1,0,0,1
+Male,63,Yes,0,1,68,Offer A,Yes,29.18,Yes,Yes,DSL,18,No,Yes,Yes,Yes,No,Yes,Yes,No,One Year,Yes,Bank Withdrawal,75.8,5293.95,90,1984.24,7368.19,Churned,1,1,1,1,1
+Male,54,Yes,2,7,13,None,Yes,4.26,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,One Year,No,Credit Card,20,218.55,0,55.38,273.93,Stayed,1,1,1,1,1
+Female,72,Yes,0,1,70,None,Yes,33.74,Yes,Yes,Fiber Optic,24,No,Yes,No,Yes,Yes,Yes,No,Yes,One Year,Yes,Bank Withdrawal,105.55,7195.35,0,2361.8,9557.15,Stayed,0,1,1,1,1
+Male,61,Yes,6,2,7,None,No,0,no phone service,Yes,Cable,30,Yes,No,No,Yes,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,34.5,279.25,0,0,279.25,Churned,1,1,1,1,1
+Female,42,No,0,0,5,None,Yes,24.83,No,Yes,DSL,26,Yes,No,Yes,No,No,No,No,Yes,Month-to-Month,No,Credit Card,55.8,300.4,0,124.15,424.55,Stayed,1,1,0,0,1
+Female,30,Yes,2,6,10,None,Yes,5.74,No,Yes,DSL,59,No,Yes,Yes,No,No,No,No,Yes,Month-to-Month,Yes,Credit Card,55.55,551.3,0,57.4,608.7,Stayed,1,1,1,1,1
+Male,68,No,0,0,19,Offer D,Yes,28.12,Yes,Yes,Fiber Optic,25,Yes,No,No,No,Yes,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,90.6,1660,0,534.28,2194.28,Churned,0,0,0,0,0
+Female,62,No,0,0,39,None,Yes,6.77,No,Yes,DSL,17,No,No,No,Yes,No,Yes,Yes,Yes,One Year,No,Bank Withdrawal,59.3,2209.15,0,264.03,2473.18,Stayed,1,1,1,1,1
+Male,40,No,0,0,20,None,Yes,16.05,No,Yes,Fiber Optic,18,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,108.2,2203.7,0,321,2524.7,Stayed,1,1,0,1,1
+Male,78,Yes,0,1,20,None,Yes,32.54,No,Yes,Fiber Optic,5,Yes,No,Yes,Yes,No,Yes,No,Yes,One Year,No,Credit Card,94.3,1818.3,0,650.8,2469.1,Stayed,1,1,1,1,1
+Male,70,Yes,0,1,72,Offer A,No,0,no phone service,Yes,DSL,7,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Two Year,Yes,Credit Card,64.95,4546,30,0,4576,Stayed,1,1,1,1,1
+Female,55,No,0,0,62,None,Yes,8.23,Yes,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,Yes,Credit Card,-6,1563.95,0,510.26,2074.21,Stayed,1,1,1,1,1
+Female,57,No,1,0,24,None,Yes,34.24,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,No,Mailed Check,19.75,498.1,0,821.76,1319.86,Stayed,1,1,1,1,1
+Male,57,Yes,0,4,21,None,Yes,17.19,No,Yes,DSL,11,No,No,No,No,Yes,No,No,Yes,Month-to-Month,No,Bank Withdrawal,54.6,1125.2,0,360.99,1486.19,Stayed,1,1,0,1,1
+Female,67,No,0,0,2,None,Yes,12.52,No,Yes,Fiber Optic,25,No,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,70.65,142.35,0,25.04,167.39,Churned,0,0,0,0,0
+Female,19,Yes,1,6,48,Offer B,Yes,44.66,No,Yes,DSL,27,Yes,No,Yes,Yes,Yes,No,No,Yes,One Year,No,Bank Withdrawal,69.7,3023.65,0,2143.68,5167.33,Stayed,1,1,1,1,1
+Male,48,No,0,0,7,None,Yes,1.67,No,Yes,Fiber Optic,23,Yes,No,No,No,No,No,No,Yes,Month-to-Month,No,Credit Card,74.35,533.6,0,11.69,545.29,Stayed,0,1,0,0,1
+Male,30,No,0,0,1,Offer E,Yes,25.39,Yes,Yes,DSL,52,No,No,Yes,No,No,No,No,Yes,Month-to-Month,No,Bank Withdrawal,54.35,54.35,0,25.39,79.74,Churned,0,0,0,0,0
+Female,36,Yes,0,1,53,Offer B,Yes,18,Yes,Yes,Fiber Optic,20,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,108.95,5718.2,0,954,6672.2,Stayed,0,1,1,1,1
+Female,47,No,0,0,1,None,Yes,32.74,No,Yes,DSL,26,No,No,No,No,Yes,No,No,Yes,Month-to-Month,Yes,Credit Card,55,55,0,32.74,87.74,Churned,0,0,0,0,0
+Female,37,Yes,5,5,27,Offer C,Yes,19.32,No,Yes,DSL,30,No,Yes,No,No,No,No,No,Yes,Month-to-Month,No,Credit Card,49.85,1336.15,0,521.64,1857.79,Stayed,1,1,1,1,1
+Female,49,Yes,1,4,56,None,Yes,12.97,No,Yes,Fiber Optic,28,No,No,No,No,Yes,Yes,Yes,Yes,One Year,No,Bank Withdrawal,88.9,4968,0,726.32,5694.32,Stayed,1,1,1,1,1
+Male,49,Yes,0,0,67,None,Yes,42.77,Yes,Yes,DSL,3,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,79.7,5293.4,0,2865.59,8158.99,Churned,1,1,1,1,1
+Female,63,No,0,0,17,Offer D,Yes,3.84,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,One Year,No,Credit Card,20.05,337.9,0,65.28,359.5,Stayed,1,1,1,1,1
+Male,27,No,0,0,18,Offer D,Yes,15.18,Yes,Yes,Fiber Optic,42,No,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,75.6,1395.05,0,273.24,1668.29,Stayed,1,0,0,0,1
+Male,75,No,0,0,37,Offer C,No,0,no phone service,Yes,DSL,29,No,Yes,Yes,No,No,No,No,Yes,Two Year,No,Bank Withdrawal,36.65,1315,0,0,1315,Stayed,1,1,0,1,1
+Female,23,No,0,0,41,Offer B,Yes,21.56,Yes,Yes,Fiber Optic,59,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,114.5,4527.45,0,883.96,5411.41,Churned,1,1,1,1,1
+Male,41,No,0,0,48,None,Yes,33.68,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,No,Credit Card,20.15,982.95,0,1616.64,2599.59,Stayed,1,1,1,1,1
+Male,29,No,3,0,1,Offer E,Yes,7.14,No,Yes,DSL,52,No,No,No,No,No,No,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,44.4,44.4,0,7.14,51.54,Churned,0,0,1,1,0
+Male,38,Yes,0,7,8,None,Yes,22.34,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Month-to-Month,Yes,Bank Withdrawal,19.55,161.15,0,178.72,339.87,Stayed,1,1,1,1,1
+Female,36,No,0,0,50,None,Yes,15.1,No,Yes,Fiber Optic,9,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,100.2,5038.45,0,755,5793.45,Stayed,1,1,1,1,1
+Female,37,No,0,0,1,None,No,0,no phone service,Yes,Cable,13,No,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Credit Card,24.9,24.9,0,0,24.9,Stayed,0,0,0,0,0
+Male,39,Yes,1,5,10,None,Yes,22.83,Yes,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,No,Credit Card,25.75,257.5,0,228.3,485.8,Stayed,1,1,1,1,1
+Male,73,No,0,0,6,Offer E,Yes,29.41,No,Yes,Fiber Optic,30,Yes,No,No,No,Yes,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,85.15,503.6,0,176.46,680.06,Churned,0,0,0,0,0
+Male,61,No,0,0,56,Offer B,Yes,18.42,No,Yes,DSL,13,No,Yes,No,Yes,Yes,Yes,Yes,No,One Year,Yes,Bank Withdrawal,75.75,4284.65,90,1031.52,5406.17,Stayed,1,1,1,1,1
+Female,64,Yes,0,1,14,Offer D,Yes,13.64,Yes,Yes,Fiber Optic,9,No,Yes,No,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,90.9,1259,0,190.96,1449.96,Churned,0,0,0,0,1
+Male,37,No,0,0,1,Offer E,Yes,18.57,No,Yes,DSL,26,No,No,No,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,44.75,44.75,10,18.57,73.32,Stayed,0,0,0,0,0
+Male,64,No,0,0,34,Offer C,Yes,22.41,Yes,Yes,Fiber Optic,13,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,One Year,No,Credit Card,116.25,3899.05,0,761.94,4660.99,Stayed,1,1,1,1,1
+Male,52,Yes,0,5,72,Offer A,Yes,30.75,Yes,Yes,Fiber Optic,3,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,114.05,8468.2,0,2214,10682.2,Stayed,1,1,1,1,1
+Male,29,Yes,3,6,32,None,Yes,36.65,No,Yes,Fiber Optic,69,Yes,Yes,No,No,No,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,-7,3023.85,0,1172.8,4196.65,Stayed,1,1,1,1,1
+Male,41,No,0,0,17,None,Yes,42.66,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,One Year,Yes,Mailed Check,20.5,365.8,0,725.22,1091.02,Stayed,1,1,1,1,1
+Male,41,Yes,2,3,68,None,Yes,31.4,No,Yes,Fiber Optic,19,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,105.25,7173.15,0,2135.2,9308.35,Stayed,1,1,1,1,1
+Female,38,No,0,0,47,Offer B,Yes,35.75,Yes,Yes,DSL,13,Yes,No,Yes,Yes,No,No,No,No,Two Year,Yes,Credit Card,65,2879.9,0,1680.25,4560.15,Stayed,1,1,1,1,1
+Female,68,No,0,0,16,Offer D,Yes,9.43,No,Yes,Fiber Optic,9,No,No,No,Yes,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,94.45,1511.2,0,150.88,1662.08,Churned,0,0,0,0,0
+Male,58,Yes,3,4,44,None,Yes,46.54,No,Yes,DSL,52,No,Yes,No,Yes,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,54.9,2549.1,130,2047.76,4726.86,Stayed,1,1,1,1,1
+Female,25,Yes,0,0,72,None,Yes,21.96,Yes,Yes,Fiber Optic,59,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,105.5,7544,0,1581.12,9125.12,Stayed,1,1,1,0,1
+Male,41,Yes,0,1,3,Offer E,Yes,37.61,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Month-to-Month,Yes,Credit Card,20.55,51.15,0,112.83,163.98,Churned,0,0,1,0,0
+Male,37,No,0,0,22,Offer D,Yes,48.07,No,Yes,Fiber Optic,18,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,94.95,2142.8,0,1057.54,3200.34,Stayed,1,1,0,1,1
+Male,49,No,0,0,23,Offer D,Yes,16.28,Yes,Yes,Fiber Optic,2,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Credit Card,104.05,2470.1,0,374.44,2844.54,Churned,1,1,0,0,1
+Male,54,Yes,3,10,70,None,Yes,39.06,Yes,Yes,Fiber Optic,75,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Credit Card,114.75,7842.3,0,2734.2,10576.5,Stayed,1,1,1,1,1
+Female,60,No,0,0,3,None,Yes,1.47,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,One Year,No,Mailed Check,20.25,71.2,0,4.41,75.61,Stayed,1,0,1,1,0
+Male,25,No,0,0,44,None,Yes,38.33,No,Yes,Fiber Optic,41,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,106.05,4510.8,0,1686.52,6197.32,Stayed,1,1,1,1,1
+Male,67,No,0,0,5,Offer E,Yes,18.38,No,Yes,Fiber Optic,15,No,Yes,No,No,No,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,85.55,408.5,0,91.9,500.4,Stayed,1,1,0,0,1
+Male,26,No,0,0,4,Offer E,Yes,6.88,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Month-to-Month,Yes,Bank Withdrawal,19.85,63,0,27.52,90.52,Stayed,1,1,0,1,1
+Female,35,No,0,0,4,Offer E,Yes,32.54,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Month-to-Month,No,Credit Card,20.15,84.5,0,130.16,214.66,Stayed,1,1,1,1,1
+Female,57,No,0,0,3,Offer E,Yes,3.64,Yes,Yes,DSL,25,No,No,No,Yes,Yes,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,63.6,155.65,0,10.92,166.57,Churned,0,0,0,0,0
+Male,55,No,0,0,54,None,Yes,27.17,No,Yes,Fiber Optic,24,Yes,No,Yes,No,Yes,No,No,Yes,Month-to-Month,No,Credit Card,89.8,4667,0,1467.18,6134.18,Stayed,1,1,1,1,1
+Male,40,No,0,0,14,None,Yes,33.5,Yes,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,One Year,Yes,Credit Card,24.8,321.7,0,469,790.7,Stayed,1,1,1,1,1
+Female,48,No,0,0,25,None,Yes,1.37,No,Yes,DSL,21,Yes,Yes,Yes,Yes,Yes,No,No,Yes,One Year,No,Credit Card,74.3,1863.8,0,34.25,1898.05,Churned,1,1,1,1,1
+Female,72,No,1,0,27,Offer C,Yes,3.33,Yes,Yes,Fiber Optic,18,No,No,Yes,No,No,No,No,No,Month-to-Month,Yes,Bank Withdrawal,78.05,2135.5,10,89.91,2235.41,Churned,0,1,0,1,0
+Female,33,No,0,0,1,None,Yes,13.61,Yes,Yes,Fiber Optic,25,No,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,74.5,74.5,0,13.61,88.11,Churned,0,0,0,0,0
+Female,73,Yes,0,3,12,None,Yes,37.15,No,Yes,DSL,13,Yes,No,Yes,Yes,Yes,Yes,Yes,No,One Year,Yes,Bank Withdrawal,79.2,943.85,20,445.8,1409.65,Stayed,1,1,1,1,1
+Male,56,Yes,3,8,13,None,Yes,28.15,No,Yes,Cable,56,No,Yes,Yes,Yes,No,No,No,Yes,Month-to-Month,No,Bank Withdrawal,61.8,750.1,0,365.95,1116.05,Stayed,1,1,1,1,1
+Male,55,Yes,1,0,69,Offer A,Yes,8.46,Yes,Yes,Fiber Optic,21,No,No,No,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,99.35,6856.45,0,583.74,7440.19,Stayed,1,1,1,1,1
+Female,52,No,1,0,35,None,Yes,38.82,Yes,Yes,DSL,19,No,No,No,No,No,No,No,No,Month-to-Month,No,Mailed Check,50.15,1655.35,130,1358.7,3144.05,Stayed,1,1,1,1,1
+Male,57,Yes,2,9,64,Offer B,Yes,45.35,Yes,Yes,Fiber Optic,30,No,No,Yes,No,No,Yes,Yes,Yes,One Year,No,Credit Card,90.25,5629.15,0,2902.4,8531.55,Stayed,1,1,1,1,1
+Female,22,Yes,0,1,21,Offer D,Yes,38.52,Yes,Yes,Fiber Optic,59,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,104.4,2200.25,0,808.92,3009.17,Churned,0,1,0,0,1
+Male,70,No,0,0,2,None,Yes,25.19,Yes,Yes,Fiber Optic,14,No,No,No,No,Yes,Yes,No,Yes,Month-to-Month,Yes,Bank Withdrawal,93.85,196.75,0,50.38,247.13,Churned,0,0,0,0,0
+Female,32,No,0,0,20,None,Yes,10.9,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,One Year,Yes,Credit Card,19.35,433.75,0,218,651.75,Stayed,1,1,1,1,1
+Male,36,No,0,0,26,Offer C,Yes,44.11,No,Yes,DSL,8,No,No,No,Yes,No,No,No,Yes,Month-to-Month,No,Bank Withdrawal,49.15,1237.3,0,1146.86,2384.16,Stayed,1,1,0,1,1
+Male,44,No,0,0,3,Offer E,No,0,no phone service,Yes,DSL,21,No,Yes,No,Yes,No,No,No,Yes,Month-to-Month,Yes,Mailed Check,36.85,108.7,0,0,108.7,Churned,0,0,0,0,0
+Female,20,No,3,0,4,Offer E,Yes,38.97,Yes,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Month-to-Month,Yes,Credit Card,25.45,84.2,0,155.88,240.08,Stayed,1,1,1,1,1
+Female,47,Yes,3,8,7,None,Yes,16.22,No,Yes,DSL,53,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,75.7,554.05,0,113.54,667.59,Stayed,1,1,1,1,1
+Male,46,No,0,0,2,None,Yes,24.9,No,Yes,DSL,11,No,No,No,No,No,No,No,No,Month-to-Month,No,Mailed Check,44.65,74.9,10,49.8,134.7,Churned,0,0,0,0,0
+Male,80,Yes,0,1,46,Offer B,Yes,5.36,Yes,Yes,Fiber Optic,22,No,No,Yes,No,Yes,Yes,No,Yes,Month-to-Month,Yes,Bank Withdrawal,101,4680.05,0,246.56,4926.61,Churned,0,1,0,0,0
+Female,38,Yes,0,1,5,Offer E,Yes,1.12,No,Yes,Fiber Optic,22,No,No,No,Yes,Yes,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,85.75,470.95,0,5.6,432.39,Churned,0,0,0,0,1
+Female,33,No,0,0,10,None,No,0,no phone service,Yes,DSL,23,No,Yes,No,Yes,No,No,No,Yes,Month-to-Month,No,Bank Withdrawal,36.25,374,0,0,374,Stayed,1,1,0,1,1
+Female,73,No,0,0,13,None,Yes,40.37,No,Yes,Fiber Optic,21,No,No,Yes,No,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,74.3,940.35,0,524.81,1465.16,Churned,0,0,0,0,0
+Female,55,Yes,0,3,71,None,Yes,32.13,Yes,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,No,Bank Withdrawal,24.75,1836.9,0,2281.23,4118.13,Stayed,1,1,1,1,1
+Male,62,No,0,0,22,None,Yes,37.11,No,Yes,DSL,15,Yes,No,No,Yes,No,No,No,Yes,Month-to-Month,No,Mailed Check,55.1,1253.15,0,816.42,2069.57,Stayed,1,1,0,1,1
+Female,32,Yes,0,0,57,Offer B,Yes,12.19,Yes,Yes,Fiber Optic,16,Yes,No,No,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,-3,5497.05,0,694.83,6191.88,Stayed,1,1,1,1,1
+Female,61,Yes,3,8,72,Offer A,Yes,17.21,No,Yes,Cable,53,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Two Year,Yes,Bank Withdrawal,74.35,5237.4,50,1239.12,6526.52,Stayed,1,1,1,1,1
+Male,40,Yes,0,0,70,None,Yes,43.46,Yes,Yes,DSL,21,Yes,Yes,Yes,Yes,Yes,No,No,Yes,One Year,No,Bank Withdrawal,79.4,5528.9,0,3042.2,8571.1,Stayed,1,1,1,1,1
+Male,80,No,0,0,1,None,Yes,39.88,Yes,Yes,Fiber Optic,19,No,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,73.65,73.65,0,39.88,113.53,Churned,0,0,0,0,0
+Female,36,No,0,0,13,Offer D,Yes,28.45,No,Yes,DSL,30,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Month-to-Month,No,Bank Withdrawal,67.8,842.25,0,369.85,1212.1,Stayed,1,1,0,1,1
+Male,56,Yes,3,3,62,None,Yes,40.66,Yes,Yes,Fiber Optic,21,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Bank Withdrawal,115.55,7159.05,0,2520.92,9679.97,Stayed,1,1,1,1,1
+Female,30,No,0,0,5,Offer E,Yes,10.11,No,Yes,Fiber Optic,69,No,Yes,No,Yes,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,89.35,461.7,0,50.55,512.25,Churned,0,0,0,0,1
+Female,71,No,0,0,5,None,Yes,30.05,No,Yes,Fiber Optic,11,No,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Credit Card,69.05,318.5,0,150.25,468.75,Churned,0,1,0,0,0
+Female,30,No,0,0,31,None,Yes,38.78,Yes,Yes,Fiber Optic,59,No,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,76.05,2227.8,0,1202.18,3429.98,Stayed,1,1,0,1,1
+Male,67,No,0,0,18,None,Yes,38.79,Yes,Yes,Fiber Optic,14,No,Yes,No,No,No,No,No,Yes,Month-to-Month,Yes,Credit Card,80.55,1411.65,0,698.22,2109.87,Stayed,0,1,0,0,0
+Female,76,No,0,0,64,None,Yes,22.86,Yes,Yes,Fiber Optic,24,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Two Year,Yes,Bank Withdrawal,108.95,7111.3,0,1463.04,8574.34,Stayed,1,1,1,1,1
+Female,66,No,0,0,42,None,Yes,27,Yes,Yes,Cable,30,No,No,Yes,No,No,No,No,Yes,Month-to-Month,No,Bank Withdrawal,55.65,2421.75,0,1134,3555.75,Stayed,0,1,0,1,0
+Male,62,No,0,0,30,Offer C,Yes,7.19,Yes,Yes,Fiber Optic,18,Yes,Yes,Yes,No,No,No,No,Yes,One Year,No,Bank Withdrawal,90.4,2820.65,0,215.7,3036.35,Stayed,1,1,1,1,1
+Male,47,No,0,0,19,Offer D,Yes,1.79,No,Yes,Fiber Optic,14,No,Yes,No,No,No,No,No,No,Month-to-Month,Yes,Credit Card,73.85,1424.5,130,34.01,1588.51,Churned,1,0,0,0,1
+Female,63,Yes,0,7,65,None,Yes,19.99,No,Yes,DSL,26,Yes,No,Yes,No,No,No,No,Yes,Month-to-Month,Yes,Credit Card,55.15,3673.15,0,1299.35,4972.5,Stayed,1,1,1,1,1
+Male,28,No,0,0,18,Offer D,Yes,38.73,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,One Year,No,Credit Card,20.1,401.85,0,697.14,1098.99,Stayed,1,1,1,1,1
+Female,69,No,0,0,13,Offer D,Yes,7.22,Yes,Yes,Fiber Optic,28,Yes,No,No,No,Yes,Yes,No,Yes,Month-to-Month,Yes,Bank Withdrawal,100.8,1308.1,0,93.86,1401.96,Churned,0,0,0,0,0
+Female,40,No,0,0,41,None,Yes,37.46,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,One Year,Yes,Credit Card,19.75,806.95,0,1535.86,2342.81,Stayed,1,1,1,1,1
+Female,61,Yes,3,9,54,None,Yes,23.02,Yes,Yes,Cable,21,No,Yes,Yes,No,No,No,No,Yes,Two Year,Yes,Bank Withdrawal,59.8,3246.45,0,1243.08,4489.53,Stayed,1,1,1,1,1
+Male,20,No,0,0,32,None,Yes,36.78,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,One Year,No,Credit Card,-6,707.5,0,1176.96,1884.46,Stayed,1,1,1,1,1
+Male,50,Yes,0,8,72,None,Yes,27.59,Yes,Yes,Fiber Optic,25,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,No,Credit Card,115.8,8332.15,0,1986.48,10318.63,Stayed,1,1,1,1,1
+Male,35,Yes,2,10,59,Offer B,Yes,18.75,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,No,Credit Card,19.5,1147.85,0,1106.25,2254.1,Stayed,1,1,1,1,1
+Female,61,No,0,0,25,Offer C,Yes,19.75,Yes,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,No,Credit Card,24.75,692.1,0,493.75,1185.85,Churned,1,1,1,1,1
+Male,74,Yes,0,1,15,None,Yes,45.25,Yes,Yes,Cable,22,No,No,No,No,No,Yes,No,Yes,Month-to-Month,Yes,Bank Withdrawal,85.6,1345.55,0,678.75,2024.3,Churned,0,1,0,0,0
+Female,42,No,0,0,14,Offer D,Yes,18.74,No,Yes,Cable,20,No,No,Yes,No,No,No,No,Yes,Month-to-Month,No,Bank Withdrawal,75.35,1025.95,0,262.36,1288.31,Churned,0,1,0,0,1
+Male,61,Yes,2,6,52,Offer B,Yes,49.51,Yes,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,No,Mailed Check,25.75,1345.85,0,2574.52,3920.37,Stayed,1,1,1,1,1
+Male,21,No,0,0,61,Offer B,Yes,36.05,Yes,Yes,Fiber Optic,73,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,106.45,6300.15,0,2199.05,8499.2,Stayed,1,1,1,1,1
+Female,58,Yes,0,1,54,Offer B,Yes,32.72,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,No,Credit Card,20.05,1102.4,0,1766.88,2869.28,Stayed,1,1,1,1,1
+Female,22,No,0,0,8,None,Yes,17.3,Yes,Yes,Fiber Optic,41,No,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,73.5,632.2,0,138.4,770.6,Stayed,0,0,0,0,1
+Male,36,No,0,0,3,Offer E,Yes,44.42,No,Yes,Cable,6,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,77.4,206.15,0,133.26,339.41,Stayed,0,0,0,0,0
+Female,51,No,0,0,14,Offer D,Yes,1.69,No,Yes,Fiber Optic,21,No,Yes,No,Yes,No,No,No,Yes,Month-to-Month,Yes,Credit Card,80.05,1112.3,0,23.66,1135.96,Stayed,0,1,0,1,1
+Male,31,No,0,0,72,Offer A,Yes,23.43,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,Yes,Credit Card,20.8,1521.2,0,1686.96,3208.16,Stayed,1,1,1,1,1
+Male,62,No,0,0,35,Offer C,Yes,39.87,Yes,Yes,Fiber Optic,23,Yes,Yes,Yes,Yes,No,No,No,No,Month-to-Month,Yes,Credit Card,96.75,3403.4,130,1395.45,4928.85,Stayed,1,1,1,1,1
+Male,21,Yes,0,4,66,None,Yes,7.67,Yes,Yes,DSL,69,No,No,No,Yes,No,Yes,Yes,Yes,Month-to-Month,No,Bank Withdrawal,63.85,4264.6,0,506.22,4770.82,Stayed,1,1,1,1,1
+Male,41,Yes,0,7,48,Offer B,Yes,38.82,Yes,Yes,Cable,8,No,Yes,Yes,No,No,Yes,Yes,Yes,One Year,Yes,Credit Card,70.55,3420.5,0,1863.36,5283.86,Stayed,1,1,1,1,1
+Female,79,Yes,3,6,48,None,Yes,13.4,No,Yes,Fiber Optic,75,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,104.5,5068.05,0,643.2,5711.25,Stayed,1,1,1,1,1
+Male,34,Yes,0,1,21,Offer D,Yes,17.57,Yes,Yes,Cable,14,Yes,Yes,No,Yes,Yes,No,No,No,One Year,No,Mailed Check,77.5,1625,80,368.97,2055.58,Churned,1,1,1,1,1
+Male,37,No,0,0,1,Offer E,Yes,43.82,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,No,Credit Card,20.45,20.45,0,43.82,64.27,Stayed,1,0,1,1,0
+Female,20,Yes,3,3,67,None,Yes,20.41,Yes,Yes,Fiber Optic,52,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,One Year,Yes,Credit Card,112.35,7388.45,0,1367.47,8755.92,Stayed,1,1,1,1,1
+Female,50,No,0,0,1,None,Yes,11.96,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Month-to-Month,No,Credit Card,19.8,19.8,0,11.96,31.76,Stayed,0,0,1,0,0
+Male,24,Yes,0,4,7,Offer E,Yes,36.14,No,Yes,DSL,85,Yes,No,No,No,No,No,Yes,Yes,One Year,Yes,Bank Withdrawal,49.75,331.3,0,252.98,584.28,Churned,0,1,1,1,1
+Male,49,No,0,0,17,Offer D,Yes,34.98,No,Yes,Fiber Optic,21,No,Yes,Yes,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Credit Card,90.95,1612.2,0,594.66,2206.86,Stayed,1,1,0,0,1
+Male,37,Yes,0,1,40,Offer B,Yes,29.46,Yes,Yes,Fiber Optic,28,No,Yes,Yes,No,Yes,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,106,4178.65,0,1178.4,5310.03,Stayed,0,1,1,1,1
+Male,23,No,0,0,24,None,Yes,27.97,Yes,Yes,Fiber Optic,58,No,No,Yes,No,Yes,No,Yes,Yes,Month-to-Month,Yes,Mailed Check,89.85,2165.05,0,671.28,2836.33,Churned,0,1,0,0,1
+Male,51,Yes,0,8,69,Offer A,Yes,33.37,Yes,Yes,Fiber Optic,24,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,One Year,Yes,Credit Card,107.2,7317.1,0,2302.53,9619.63,Stayed,1,1,1,1,1
+Male,77,Yes,0,7,72,None,Yes,5.51,No,Yes,Fiber Optic,2,Yes,Yes,No,Yes,No,No,No,Yes,Two Year,Yes,Credit Card,84.8,6141.65,0,396.72,6538.37,Stayed,1,1,1,1,1
+Female,57,No,0,0,1,Offer E,Yes,33.02,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Month-to-Month,Yes,Credit Card,19.5,19.5,0,33.02,52.52,Stayed,0,0,0,0,0
+Female,40,No,0,0,36,None,Yes,25.95,Yes,Yes,DSL,21,Yes,No,No,No,No,No,No,Yes,One Year,No,Credit Card,54.45,1893.5,0,934.2,2827.7,Stayed,1,1,1,1,1
+Female,37,Yes,2,1,47,None,No,0,no phone service,Yes,DSL,25,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,60,2768.65,0,0,2768.65,Stayed,1,1,1,1,1
+Male,48,No,0,0,16,None,Yes,24.79,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Month-to-Month,No,Credit Card,19.75,294.9,0,396.64,691.54,Stayed,1,1,1,1,1
+Male,27,No,0,0,17,None,Yes,47.79,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,One Year,Yes,Bank Withdrawal,19.65,351.55,0,812.43,1163.98,Stayed,1,1,1,1,1
+Female,54,Yes,1,9,38,None,Yes,26.84,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,Yes,Credit Card,20.2,746.05,0,1019.92,1765.97,Stayed,1,1,1,1,1
+Male,65,No,0,0,1,None,Yes,42.3,No,Yes,Fiber Optic,16,No,No,No,No,Yes,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,79.1,79.1,0,42.3,121.4,Churned,0,0,0,0,0
+Female,78,Yes,0,0,72,None,Yes,25.77,Yes,Yes,DSL,6,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Two Year,No,Credit Card,92.45,6440.25,0,1855.44,8295.69,Churned,1,1,1,1,1
+Male,51,No,0,0,50,Offer B,No,0,no phone service,Yes,DSL,20,Yes,Yes,No,No,No,No,No,Yes,Month-to-Month,Yes,Credit Card,35,1782.4,0,0,1782.4,Stayed,1,1,0,1,1
+Female,64,No,0,0,8,Offer E,Yes,11.2,No,Yes,Fiber Optic,17,No,Yes,No,No,No,No,No,No,Month-to-Month,No,Bank Withdrawal,75.6,535.55,10,89.6,635.15,Stayed,0,0,0,0,1
+Male,60,No,0,0,67,Offer A,Yes,32.58,No,Yes,DSL,8,No,No,No,Yes,No,No,No,Yes,Two Year,No,Bank Withdrawal,50.55,3260.1,0,2182.86,5442.96,Stayed,1,1,1,1,1
+Female,52,Yes,3,1,38,Offer C,Yes,44.32,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,One Year,No,Credit Card,20.3,749.35,0,1684.16,2422.86,Stayed,1,1,1,1,1
+Male,24,Yes,0,1,70,Offer A,Yes,1.63,No,Yes,DSL,41,Yes,Yes,Yes,Yes,No,No,No,Yes,Two Year,No,Credit Card,64.95,4523.25,0,114.1,4594.46,Stayed,1,1,1,1,1
+Female,47,No,0,0,41,Offer B,Yes,31.08,Yes,Yes,DSL,12,Yes,No,Yes,Yes,No,Yes,Yes,No,Month-to-Month,Yes,Bank Withdrawal,74.65,3090.65,100,1274.28,4464.93,Stayed,1,1,1,1,1
+Male,40,Yes,3,1,59,Offer B,Yes,46.1,Yes,Yes,Fiber Optic,57,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Credit Card,111.1,6555.2,0,2719.9,9275.1,Stayed,1,1,1,1,1
+Female,53,No,0,0,64,Offer B,Yes,4.03,Yes,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,One Year,No,Mailed Check,24.7,1642.75,0,257.92,1900.67,Stayed,1,1,1,1,1
+Male,46,No,0,0,3,Offer E,Yes,14.28,Yes,Yes,Fiber Optic,21,No,No,No,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,85.3,264.8,0,42.84,307.64,Churned,0,0,0,0,0
+Female,69,Yes,0,5,22,Offer D,Yes,15.27,Yes,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,One Year,No,Bank Withdrawal,25.6,548.8,0,335.94,884.74,Stayed,1,1,1,1,1
+Male,31,No,1,0,70,None,Yes,26.62,Yes,Yes,Cable,19,Yes,Yes,No,Yes,No,No,No,Yes,One Year,No,Bank Withdrawal,64.95,4551.5,0,1863.4,6394.03,Stayed,1,1,1,1,1
+Male,50,No,0,0,43,None,Yes,41.22,Yes,Yes,Fiber Optic,7,No,No,No,No,Yes,Yes,Yes,Yes,One Year,No,Credit Card,94.35,3921.3,0,1772.46,5693.76,Stayed,1,1,1,1,1
+Female,54,No,0,0,5,Offer E,Yes,37.1,Yes,Yes,Cable,2,No,No,No,No,No,No,No,No,Month-to-Month,Yes,Mailed Check,50.6,249.95,20,185.5,455.45,Churned,1,1,0,0,1
+Male,41,No,0,0,1,Offer E,Yes,5.43,Yes,Yes,Fiber Optic,18,No,No,No,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,86.6,86.6,0,5.43,92.03,Churned,0,0,0,0,0
+Female,21,No,0,0,1,None,Yes,5.1,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Month-to-Month,No,Credit Card,19.55,19.55,0,5.1,24.65,Stayed,0,0,1,1,0
+Male,77,Yes,1,1,72,Offer A,Yes,30.78,Yes,Yes,Fiber Optic,17,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Two Year,Yes,Credit Card,115.75,8399.15,110,2216.16,10725.31,Stayed,1,1,1,1,1
+Female,45,No,2,0,18,Offer D,Yes,30.22,Yes,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,No,Credit Card,25.3,454.65,0,543.96,998.61,Stayed,1,1,1,1,1
+Male,59,Yes,3,4,38,None,Yes,31.45,No,Yes,DSL,76,Yes,Yes,Yes,Yes,Yes,No,No,Yes,One Year,No,Bank Withdrawal,74.05,2802.3,0,1195.1,3997.4,Stayed,1,1,1,1,1
+Female,53,Yes,0,2,49,None,Yes,49.63,Yes,Yes,Fiber Optic,9,No,No,No,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,95.6,4783.5,0,2431.87,7215.37,Churned,1,1,1,0,1
+Female,57,Yes,2,2,2,None,Yes,35.42,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,One Year,No,Credit Card,20.3,31.9,0,70.84,102.74,Stayed,0,0,1,1,0
+Male,55,Yes,3,8,12,Offer D,Yes,44.12,Yes,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,Yes,Bank Withdrawal,25.4,313,0,529.44,842.44,Stayed,1,1,1,1,1
+Female,33,No,0,0,15,None,Yes,9.71,Yes,Yes,DSL,26,No,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,49.1,679.55,0,145.65,825.2,Churned,1,1,0,1,1
+Male,29,No,0,0,3,None,Yes,27.34,No,Yes,Fiber Optic,71,No,No,Yes,No,No,No,No,No,Month-to-Month,Yes,Credit Card,73.6,232.5,10,82.02,324.52,Stayed,0,0,0,0,0
+Female,64,Yes,0,10,71,None,Yes,4.71,No,Yes,DSL,29,Yes,Yes,Yes,Yes,No,No,No,Yes,Two Year,No,Credit Card,-10,4492.9,0,334.41,4827.31,Stayed,1,1,1,1,1
+Female,27,No,0,0,1,None,Yes,45.86,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Month-to-Month,No,Bank Withdrawal,20.7,20.7,0,45.86,66.56,Stayed,0,0,1,1,0
+Female,75,Yes,0,1,34,None,Yes,2.88,Yes,Yes,Fiber Optic,4,No,Yes,Yes,No,No,Yes,No,Yes,Month-to-Month,Yes,Bank Withdrawal,94.25,3217.55,0,97.92,3315.47,Churned,0,1,0,0,0
+Female,56,Yes,0,1,6,None,Yes,23.35,Yes,Yes,Fiber Optic,8,No,Yes,No,No,No,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,90.75,512.25,0,140.1,652.35,Stayed,0,0,0,0,1
+Male,80,Yes,0,2,51,Offer B,Yes,43.58,Yes,Yes,Cable,22,No,Yes,Yes,No,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,84.2,4146.05,0,2222.58,6368.63,Churned,0,1,1,0,0
+Female,79,No,0,0,26,None,Yes,12.09,Yes,Yes,DSL,15,No,No,No,Yes,No,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,66.05,1652.4,0,314.34,1919.01,Stayed,1,1,0,1,1
+Female,40,No,0,0,49,Offer B,Yes,35.87,Yes,Yes,DSL,30,Yes,Yes,No,No,No,No,No,Yes,Month-to-Month,Yes,Credit Card,59.75,2934.3,0,1757.63,4691.93,Churned,1,1,1,1,1
+Male,51,Yes,0,2,24,Offer C,Yes,3,Yes,Yes,Fiber Optic,15,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,104.65,2542.45,0,72,2614.45,Churned,0,1,0,0,1
+Male,62,No,0,0,69,None,No,0,no phone service,Yes,Cable,18,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,60.05,4176.7,0,0,4135.49,Stayed,1,1,1,1,1
+Male,48,No,3,0,56,Offer B,Yes,22.47,Yes,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Two Year,Yes,Credit Card,24.8,1424.2,0,1258.32,2682.52,Stayed,1,1,1,1,1
+Male,38,No,0,0,44,Offer B,No,0,no phone service,Yes,Cable,4,No,Yes,Yes,No,Yes,Yes,Yes,Yes,One Year,Yes,Credit Card,53.95,2375.4,0,0,2375.4,Churned,1,1,1,1,1
+Male,32,Yes,0,8,47,Offer B,Yes,39.52,Yes,Yes,Fiber Optic,30,No,Yes,No,No,No,No,No,Yes,One Year,Yes,Bank Withdrawal,78.9,3650.35,0,1857.44,5507.79,Stayed,1,1,1,1,1
+Female,79,Yes,0,6,72,Offer A,Yes,14.75,Yes,Yes,Fiber Optic,16,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Two Year,Yes,Credit Card,116.75,8277.05,0,1062,9339.05,Stayed,1,1,1,1,1
+Female,35,No,0,0,18,Offer D,Yes,34.12,No,Yes,Fiber Optic,20,No,No,No,No,No,No,No,Yes,Month-to-Month,Yes,Bank Withdrawal,69.8,1221.65,0,614.16,1835.81,Stayed,1,1,0,0,1
+Male,39,Yes,0,10,51,Offer B,Yes,9.99,Yes,Yes,DSL,5,No,No,No,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,75.2,3901.25,0,509.49,4410.74,Stayed,1,1,1,1,1
+Male,71,Yes,0,1,66,None,Yes,30.03,Yes,Yes,DSL,15,Yes,Yes,Yes,Yes,Yes,No,No,No,Two Year,No,Credit Card,79.4,5154.6,150,1981.98,7286.58,Churned,1,1,1,1,0
+Female,26,No,2,0,46,None,Yes,17.51,No,Yes,Fiber Optic,85,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Month-to-Month,Yes,Bank Withdrawal,99.8,4391.25,0,805.46,5196.71,Stayed,1,1,1,1,1
+Male,40,No,0,0,9,Offer E,Yes,48.61,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,One Year,Yes,Mailed Check,20.15,163.7,0,437.49,601.19,Stayed,1,1,1,1,1
+Male,52,No,0,0,69,Offer A,Yes,20.44,Yes,Yes,Fiber Optic,3,No,Yes,No,Yes,Yes,Yes,Yes,Yes,One Year,Yes,Bank Withdrawal,104.7,7220.35,0,1410.36,8630.71,Churned,1,1,1,1,1
+Male,68,Yes,0,1,47,None,Yes,8.97,Yes,Yes,Fiber Optic,19,No,No,Yes,No,Yes,Yes,No,Yes,Month-to-Month,Yes,Bank Withdrawal,100.05,4871.05,0,421.59,5292.64,Churned,0,1,0,0,0
+Female,48,Yes,0,9,46,None,Yes,13.05,Yes,Yes,DSL,15,Yes,No,No,No,No,No,No,Yes,Month-to-Month,No,Bank Withdrawal,55,2473.95,0,600.3,3042.86,Stayed,1,1,1,1,1
+Male,43,No,0,0,11,Offer D,Yes,47.88,No,No,no internet service,0,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Month-to-Month,No,Credit Card,20.35,215.25,0,526.68,741.93,Stayed,1,1,1,1,1
+Female,59,Yes,0,6,60,None,Yes,32.5,No,Yes,Fiber Optic,13,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Two Year,Yes,Bank Withdrawal,97.2,5611.75,0,1950,7561.75,Stayed,1,1,1,1,1
